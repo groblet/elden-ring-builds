@@ -1,659 +1,378 @@
-# 📚 Elden Ring Intelligence (INT) Build: Complete Step-by-Step Guide
+🌙 Dark Moon Sorcerer — Full INT Build Walkthrough
+Build goal: Dark Moon Greatsword + Carian Regal Scepter INT/DEX hybrid, stacking magic damage through Ranni's questline and Liurnia sorcery content. Includes Shadow of the Erdtree DLC items.
+
+Final stats: VIG 60 | MND 30 | END 30 | STR 22 | DEX 40 | INT 80 (83 w/ Crown) | FAI 7 | ARC 9
+
+
+📋 Full Item Checklist
+Category
+Item
+Where
+⚔️ Weapon
+Dark Moon Greatsword
+Ranni's questline — Cathedral of Manus Celes
+⚔️ Weapon
+Carian Regal Scepter
+Rennala Remembrance → Enia at Roundtable Hold
+🪖 Helm
+Queen's Crescent Crown
+Purchase from Enia after defeating Rennala
+🛡️ Chest
+Fire Prelate Armor (Altered)
+Farm Fire Prelate at Fort Laiedd, Mt. Gelmir
+🧤 Hands
+Spellblade's Gloves
+Rogier's questline / bell bearing at Roundtable Hold
+👖 Legs
+Spellblade's Trousers
+Rogier's questline / bell bearing at Roundtable Hold
+💧 Tear
+Magic-Shrouding Cracked Tear
+Erdtree Avatar — Minor Erdtree, northeast Liurnia
+💧 Tear
+Stonebarb Cracked Tear
+Putrid Avatar — Minor Erdtree, Dragonbarrow
+🏅 Talisman
+Blade of Mercy
+Chest in tower at Scorched Ruins, Gravesite Plain (DLC)
+🏅 Talisman
+Magic Scorpion Charm
+Give Seluvis the Amber Starlight (before giving Ranni the Fingerslayer Blade)
+🏅 Talisman
+Dragoncrest Greatshield Talisman
+Chest in chapel roof area, Elphael, Brace of the Haligtree
+🏅 Talisman
+Shard of Alexander
+Defeat Alexander in Crumbling Farum Azula (questline completion)
+✨ Spell
+Ranni's Dark Moon
+Chest atop Chelona's Rise, Moonlight Altar
+✨ Spell
+Terra Magica
+Elevator behind Crystalian boss room, Academy Crystal Cave
+✨ Spell
+Glintstone Icecrag
+Purchase from Seluvis for 7,500 runes
+✨ Spell
+Greatblade Phalanx
+Defeat Bols, Carian Knight — Cuckoo's Evergaol, west Liurnia
+✨ Spell
+Blades of Stone
+Defeat Commander Gaius — Shadow Keep Back Gate; trade Remembrance with Enia (DLC)
+✨ Spell
+Glintstone Nails
+Ring bell at Finger Ruins of Rhia; purchase from Count Ymir for 12,000 runes (DLC)
+✨ Spell
+Shatter Earth
+Loot corpse on upper level of Raya Lucaria Crystal Tunnel
+✨ Spell
+Gavel of Haima
+Equip any Glintstone Crown + use Erudition gesture at Converted Fringe Tower, NE Liurnia
+✨ Spell
+Oracle Bubbles
+Destroy Teardrop Scarab on broken pillar north of Siofra River Well depths entrance
+✨ Spell
+Zamor Ice Storm
+Loot corpse in southern archway of Zamor Ruins, Mountaintops of the Giants
+
+
+
+🗺️ Phase 1 — Limgrave & Early Liurnia
+Starting Class
+Pick Astrologer (INT 16 base — best INT headstart) or Prisoner (INT 14, DEX 14 for hybrid scaling). Astrologer is the stronger early pick.
+📍 Siofra River (Underground, via well in East Limgrave)
+Early on, descend into the Siofra River via the well in East Limgrave.
+
+At the bottom of the elevator, head north into the underground forest area. Look for a broken pillar just north of the Siofra River Well depths entrance. A Teardrop Scarab (invisible until close — watch for footprints in the dirt) is sitting on top of it.
+
+Destroy it:
+
+✨ Oracle Bubbles — homing magic projectiles, excellent for tracking fast or evasive enemies
+
+💡 This is easy to grab very early with minimal combat. Don't skip it.
+📍 Stormveil Castle
+Defeat Godrick the Grafted to unlock the path into Liurnia of the Lakes.
+
+
+🗺️ Phase 2 — Liurnia of the Lakes
+📍 Raya Lucaria Academy (Central Liurnia)
+Requires the Glintstone Key — found on a sleeping dragon on a small island southwest of the Academy (marked on your map by a glowing dot).
+
+Boss: Rennala, Queen of the Full Moon Defeat her to earn the Remembrance of the Full Moon Queen.
 
-*A comprehensive technical guide for mastering the Intelligence attribute and casting spells in Elden Ring Shadow of the Erdtree*
+Take the Remembrance to Enia at the Roundtable Hold and purchase:
 
----
+⚔️ Carian Regal Scepter — your primary casting weapon until the Dark Moon Greatsword
+🪖 Queen's Crescent Crown — also purchased from Enia; gives +3 INT (80 → 83 effective)
 
-## 🎯 Guide Overview
+💡 Both the scepter and the crown come from the same Remembrance trade — you can only choose one per Remembrance unless you duplicate it at a Walking Mausoleum. Prioritize the scepter first; buy the crown if you have a duplicate, or save Enia's alt option for it.
 
-This guide takes you through building a complete **Intelligence-based sorcery build** from character creation through endgame optimization. Whether you're a beginner discovering magic or an experienced player refining your spellcaster, this guide provides precise instructions and viable build templates.
+Inside the Academy — Raya Lucaria Crystal Tunnel Find the Crystal Tunnel entrance in northeast Liurnia (separate from the Academy itself, along the eastern cliffs). Fight through to the upper level.
 
-**Target Level**: 125 (multiplayer-optimized)  
-**Playstyle**: Ranged magical damage, crowd control, and crowd focus fire  
-**Difficulty**: Medium (positioning and FP management required)
+✨ Shatter Earth — looted from a corpse on the upper walkway of the tunnel
+📍 Academy Crystal Cave (West Liurnia, along the cliffs)
+Fight through the cave and defeat the Crystalian boss duo at the end. Behind the boss room is an elevator — ride it up to the top of a tower.
 
----
+✨ Terra Magica — found in the chest at the top. Places a magic circle on the ground granting +35% spell damage while you stand in it. Use before every significant fight.
+📍 Cuckoo's Evergaol (West Liurnia)
+Found on a raised platform in western Liurnia. Enter the evergaol and defeat:
 
-## 📋 Prerequisites & Required Resources
+Bols, Carian Knight — a large, lanky sorcerer knight.
 
-Before starting this guide, ensure you have:
+✨ Greatblade Phalanx — conjures a volley of large magic swords that orbit and then fire at enemies. Strong against slow or large targets.
+📍 Converted Fringe Tower (Northeast Liurnia)
+Found up on the cliffs in the northeast. The door is locked with a riddle: "Erudition is the key."
 
-### ✅ Game Requirements
-- **Elden Ring** with **Shadow of the Erdtree DLC** installed (builds use post-DLC equipment)
-- Access to the Underground areas (for early sorcery progression)
-- Ability to travel between Sites of Grace
-- Optional: Co-op partners for boss fights (recommended for efficiency)
+To open it:
 
-### 🛠️ Essential Items to Acquire
-- **Glintstone Pebble** (Torrent item drop or vendor purchase)
-- **Academy Glintstone Key** (Liurnia questline)
-- **Meteorite Staff** (Caelid, early-game optimal)
-- **Carian Knight Armor** (Liurnia area)
-- **Haligtree Secret Medallion** (for late-game progression)
+Equip any Glintstone Crown (the one you just bought from Enia works perfectly).
+Use the Erudition gesture in front of the door. (You receive this gesture from Thops after giving him a Glintstone Key.)
+The door opens.
+✨ Gavel of Haima — a gravity slam sorcery that hits extremely hard in close range. Great for poise-breaking enemies.
+📍 Seluvis's Rise (Three Sisters, Northwest Liurnia)
+You must begin Ranni's questline to access this area. Travel to Ranni's Rise (northwest Liurnia, past Caria Manor) and speak to Ranni the Witch. She'll direct you to the three towers nearby.
 
-### 📊 Knowledge Prerequisites
-- Understanding of Elden Ring's attribute system
-- Familiarity with spell casting mechanics
-- Basic understanding of poise and damage negation
-- Knowledge of Rune acquisition and leveling
+Visit Seluvis at Seluvis's Rise and speak with him. He sells sorceries:
 
----
+✨ Glintstone Icecrag — 7,500 runes. Reliable mid-range magic projectile and a core damage spell for this build.
 
-## 🔄 Phase 1: Character Foundation (Level 1-30) ⚡
+Also for the Magic Scorpion Charm: During Seluvis's questline, he will ask you to deliver a potion to Nepheli Loux. Instead, speak to Seluvis about the Amber Starlight and give it to him. This must be done before you give Ranni the Fingerslayer Blade, or this step locks out.
 
-### Step 1.1: Choose the Right Starting Class
+🏅 Magic Scorpion Charm — boosts magic damage by 12% at the cost of slightly more physical damage taken. Always wear it.
+📍 Minor Erdtree — Northeast Liurnia
+Located in the northeast of Liurnia near the Frenzied Flame Village area. Defeat the Erdtree Avatar boss guarding it.
 
-**Recommended Starting Classes:**
-- **Astrologer** ✨ (BEST CHOICE)
-  - Starting INT: 16
-  - Starting Mind: 16 (excellent for FP management)
-  - Starting Vigor: 9 (will need immediate boosting)
-  - Quick path to spellcasting capability
-  
-- **Prisoner** (Alternative)
-  - Starting INT: 14
-  - Better starting Vigor (11)
-  - More balanced early-game survivability
+💧 Magic-Shrouding Cracked Tear — boosts all magic damage by 20% for 3 minutes per flask use. Your most important Flask of Wondrous Physick ingredient.
+📍 Rogier's Questline (Roundtable Hold)
+Sorcerer Rogier appears at the Roundtable Hold after you've progressed through Stormveil Castle. To advance his quest:
 
-**Action**: Create a new character as Astrologer.
+Explore the hidden basement in Stormveil (below Godrick's arena — there's a secret room with a bloodstain beneath a giant spider-hand skull on the wall).
+Exhaust dialogue with Rogier at Roundtable Hold, then speak with Fia (the woman who hugs you) about a related topic.
+Continue reporting back to Rogier as his condition worsens.
+Eventually he passes away peacefully and leaves behind his bell bearing, which you can give to the Twin Maiden Husks to unlock his wares — or simply collect his set from his chair.
+🧤 Spellblade's Gloves
+👖 Spellblade's Trousers
 
----
 
-### Step 1.2: Early Stat Priority Distribution
+🗺️ Phase 3 — Ranni's Full Questline
+This is the longest quest in the game and unlocks both your main weapon and your signature spell.
+Step-by-Step
+Accept Ranni's service at Ranni's Rise (Three Sisters, Northwest Liurnia).
+Speak to Blaidd, Iji, and Seluvis in their respective towers.
+Defeat Starscourge Radahn at Redmane Castle in Caelid. After he falls, a meteor opens a crater south of Mistwood in Limgrave — this reveals Nokron, Eternal City below.
+Navigate Nokron and defeat the Mimic Tear boss.
+Retrieve the Fingerslayer Blade from a chest in Night's Sacred Ground (deeper into Nokron).
+Return the blade to Ranni at Ranni's Rise. She gives you the Carian Inverted Statue.
+Use the statue at the Divine Tower of Liurnia (east Liurnia) to invert the puzzle and reach the Cursemark of Death.
+Travel to Ainsel River Main via the coffin in Renna's Rise (a third tower in the Three Sisters, now unlocked). At a Site of Grace, speak to the miniature Ranni doll.
+Defeat the Baleful Shadow (NPC invader) deeper in Ainsel River.
+Cross the Lake of Rot — bring Preserving Boluses and equip high robustness gear. Run for it.
+Defeat Astel, Naturalborn of the Void in the Grand Cloister. Terra Magica + Gavel of Haima melts this boss.
+Take the lift up to the Moonlight Altar plateau.
+📍 Chelona's Rise (Moonlight Altar Plateau)
+Locked tower puzzle. The note reads: "May the three great wise beasts be found."
 
-Allocate your first 30 Runes as follows:
+Hunt three invisible ghost tortoises on the plateau (watch for faint outlines or glowing footprints):
 
-| Attribute | Target Value | Priority | Reason |
-|-----------|--------------|----------|--------|
-| **Vigor** | 20 | CRITICAL 🔴 | 1-shot prevention vs bosses |
-| **Mind** | 20 | HIGH 🟠 | Spell casting (FP pool) |
-| **Intelligence** | 24 | HIGH 🟠 | Primary damage scaling |
-| **Endurance** | 12 | MEDIUM 🟡 | Light rolling + equipment flexibility |
-| **Dexterity** | 10 | LOW 🟢 | Spell cast speed (minimal gains) |
+One near the western cliff edge
+One on a high rock outcrop to the southwest
+One near the plateau's center
 
-**Calculation**: You'll gain approximately 8-12 Vigor, 4 Mind, 8 Intelligence by defeating Godrick (Golden Seed drops provide temporary boosts).
+All three killed → tower opens → chest inside:
 
-**Expected Stats After Phase 1**:
-- Vigor: 20
-- Mind: 20  
-- Intelligence: 24
-- Endurance: 12
-- Overall Level: ~30
+✨ Ranni's Dark Moon — massive magic orb that travels slowly across the arena, dealing heavy damage and reducing enemy magic resistance on hit. Open every boss fight with this followed by Terra Magica.
+📍 Cathedral of Manus Celes (Moonlight Altar Plateau)
+Northwest of Chelona's Rise. Enter the ruined cathedral and drop through a hole in the floor. Place Ranni's Dark Moon Ring on the finger of the body below.
 
----
+⚔️ Dark Moon Greatsword — the build's centerpiece. Scales with INT, and the weapon skill Moonlight Greatsword fires a wave of magic damage and restores FP on successful hits.
 
-### Step 1.3: Acquire Your First Staff
 
-**Primary Objective**: Obtain **Meteorite Staff** (located in Caelid)
+🗺️ Phase 4 — Caelid & Dragonbarrow
+📍 Minor Erdtree — Dragonbarrow
+Dragonbarrow is the northern section of Caelid, accessible by teleporter from the Third Church of Marika in East Limgrave, or overland through Caelid. The Minor Erdtree here is guarded by a Putrid Avatar (same as Erdtree Avatar but inflicts Scarlet Rot — bring Preserving Boluses).
 
-**Steps to Retrieve**:
-1. From Limgrave, travel east toward Liurnia's border
-2. Enter Caelid via northeast passage or teleport from Raya Lucaria
-3. Navigate to **Sellia, Town of Sorcery** (southeast Caelid)
-4. Find the corpse holding Meteorite Staff in ruined building
-5. Return to Sites of Grace to rest
+💧 Stonebarb Cracked Tear — increases poise/stagger damage dealt. Pairs well with repeated DMGS hits and Gavel of Haima to break enemy poise.
 
-**Alternative Early Option** (if Caelid is too dangerous):
-- Use **Glintstone Staff** from Raya Lucaria Academy
-- Requires Academy Glintstone Key (see Phase 2)
 
-**Expected Outcome**: 
-- ✅ Meteorite Staff equipped (INT scaling +30%)
-- ✅ Ability to cast offensive sorceries
-- ✅ First damage boost achieved
+🗺️ Phase 5 — Mt. Gelmir & Altus Plateau
+📍 Fort Laiedd (Mt. Gelmir)
+Reach via the Altus Plateau and northwest into Mt. Gelmir. Fort Laiedd is a ruined fort near a lava field, guarded by Fire Prelate enemies — enormous armored knights wielding flaming weapons.
 
----
+Farm the Fire Prelate outside the fort until the chest piece drops (it's a moderate drop rate — bring Gold-Pickled Fowl Feet to increase drop chance):
 
-### Step 1.4: Learn Your Core Sorceries
+🛡️ Fire Prelate Armor — once you have it, Alter it at any Site of Grace using Tailoring Tools + Sewing Needle. The Altered version removes the cape, reducing weight while keeping the high physical defense.
 
-**Location**: Raya Lucaria Academy, Various Vendors
 
-**Essential Spells to Acquire** (in order of importance):
+🗺️ Phase 6 — Alexander's Questline (Parallel)
+Complete at multiple points across the game. Finish it before entering Crumbling Farum Azula.
 
-1. **Glintstone Pebble** 📍
-   - Source: Starting spell OR vendor
-   - Cost: 1,000 Runes
-   - Use: Primary ranged attack, low FP cost
-   - Priority: ESSENTIAL
+Step
+Location
+Action
+1
+Limgrave (near Saintsbridge)
+Free Alexander from a pit by hitting him from behind
+2
+Caelid (Redmane Castle)
+He fights alongside you at the Radahn Festival
+3
+Liurnia (south of the Academy, in the fields)
+Speak to him training
+4
+Altus Plateau (near the volcano approach)
+Use an Oil Pot on him, then hit him to free him from a fissure
+5
+Crumbling Farum Azula
+Final duel — defeat him
 
-2. **Carian Slicer** 📍
-   - Source: Raya Lucaria Academy
-   - Cost: High INT requirement (18)
-   - Use: Medium-range blade slash, good DPS
-   - Priority: HIGH (best DPS/FP ratio)
 
-3. **Great Glintstone Shard** 📍
-   - Source: Academy Sorcerers
-   - Cost: 20 INT + 1,500 Runes
-   - Use: Heavier projectile with AoE
-   - Priority: MEDIUM (utility)
+🏅 Shard of Alexander — boosts weapon skill/ash of war damage by 15%. Critical for the DMGS Moonlight Greatsword skill.
 
-**Action**: Complete Raya Lucaria Academy questline to unlock merchant access.
 
-**Expected Outcome**:
-- ✅ 3-spell rotation established
-- ✅ Understand FP management
-- ✅ Combat effectiveness increased 200%
+🗺️ Phase 7 — Elphael & Haligtree
+📍 Getting to the Haligtree
+Requires the Secret Haligtree Medallion — two halves:
 
----
+Right half: Given by Albus (disguised as a pot) in the Village of the Albinaurics, Liurnia.
+Left half: Defeat Commander Niall in Castle Sol, Mountaintops of the Giants.
 
-### Step 1.5: Armor & Talismans Setup
+Use both halves at the Grand Lift of Rold (secret gesture: hold up both halves when prompted).
+📍 Elphael, Brace of the Haligtree
+Navigate deep into Elphael, past the Prayer Room Site of Grace. Proceed until you reach an interior chapel section with a roof area infested with Pests (small multi-limbed bug enemies).
 
-**Armor Recommendation** (Light Load for Rolling):
+Fight through them to find a chest:
 
-| Piece | Recommendation | Source | Notes |
-|-------|-----------------|--------|-------|
-| **Head** | Carian Knight Helm | Raya Lucaria | +2 INT |
-| **Chest** | Carian Knight Armor | Raya Lucaria | Balance of defense & weight |
-| **Arms** | Carian Knight Gauntlets | Raya Lucaria | Matching set |
-| **Legs** | Carian Knight Greaves | Raya Lucaria | Avoid heavy pants |
+🏅 Dragoncrest Greatshield Talisman — reduces all physical damage taken by 20%. Makes the build surprisingly durable despite lighter glove/leg armor.
 
-⚠️ **Critical Warning**: Do NOT equip full heavy armor—you'll lose the ability to medium-roll and dodge attacks effectively.
 
-**Talismans** (Equip at minimum 2):
-1. **Primordial Stone** (or **Blue Dancer Charm**)
-   - +3 Intelligence boost
-   - Available from early vendors
+🗺️ Phase 8 — Shadow of the Erdtree DLC
+⚠️ Requires the base game ending to be in progress. Access the DLC by interacting with Mohg's cocoon in Mohgwyn Palace (reached via Varre's questline or a teleporter in the Consecrated Snowfield).
+📍 Scorched Ruins — Gravesite Plain
+The Gravesite Plain is the starting area of the DLC. In the Scorched Ruins (a burned-out ruin cluster in the plain), look for a small tower room at the top of the ruins.
 
-2. **Dragoncrest Greatshield** (alternative)
-   - If survivability is your priority
-   - Physical defense +8%
+Open the chest inside:
 
-**Expected Load**: Should be under 70% for medium-roll capability
+🏅 Blade of Mercy — temporarily boosts attack power after restoring HP. Synergizes well with the DMGS weapon skill, which restores FP (and can trigger HP regen with other setup).
+📍 Finger Ruins of Rhia — Shadow Realm
+Deep in the DLC, locate the Finger Ruins of Rhia. Ring the bell at the ruins to trigger the next step.
 
----
+Then return to the Cathedral of Manus Metyr and speak to Count Ymir. He unlocks additional sorcery purchases:
 
-## 🎓 Phase 2: Intermediate Development (Level 30-70) 📈
+✨ Glintstone Nails — 12,000 runes. Fires a rapid burst of small magic projectiles at close-medium range. Excellent sustained DPS.
+📍 Shadow Keep Back Gate — Commander Gaius
+Reach the Shadow Keep Back Gate area in the DLC. Defeat the field boss:
 
-### Step 2.1: Stat Distribution Strategy
+Commander Gaius — a mounted boar-rider with sweeping charges and a gravity pull. Use Terra Magica + Ranni's Dark Moon at range, then follow up with Icecrag spam.
 
-**Continue allocating points with this priority**:
+He drops the Remembrance of the Wild Boar Rider. Trade it with Enia at Roundtable Hold:
 
-| Target Level | Vigor | Mind | Int | Endurance | Dexterity |
-|--------------|-------|------|-----|-----------|-----------|
-| **40** | 27 | 27 | 40 | 13 | 10 |
-| **50** | 35 | 35 | 50 | 15 | 10 |
-| **60** | 40 | 40 | 60 | 16 | 11 |
+✨ Blades of Stone — fires multiple stone slab projectiles in a spread. High impact, good for mid-range burst and stagger.
 
-**Rationale**:
-- **Vigor/Mind**: Balanced 1:1 ratio until both reach 40 (softcap)
-- **Intelligence**: Continuous investment (hardcap at 99)
-- **Endurance**: Minimal—only increase for equipment flexibility
-- **Dexterity**: Dump stat (low priority for INT builds)
 
----
+🗺️ Phase 9 — Mountaintops of the Giants
+📍 Zamor Ruins (Northwest Mountaintops)
+The Zamor Ruins are a frozen, half-buried ruin cluster in the northwest. Navigate to the southern archway of the ruins and loot the corpse there:
 
-### Step 2.2: Upgrade Your Arsenal
+✨ Zamor Ice Storm — creates a large swirling ice tornado that builds Frostbite. Devastating vs. slow or tanky bosses, and excellent for crowd control.
 
-**Staff Progression Path**:
 
-1. **Meteorite Staff** → 2. **Carian Regal Scepter** → 3. **Azur's Glintstone Staff**
+⚗️ Flask of Wondrous Physick Setup
+Mix at any Site of Grace → Flask of Wondrous Physick:
 
-**Timing & Acquisition**:
+Tear
+Effect
+💧 Magic-Shrouding Cracked Tear
++20% magic damage for 3 minutes
+💧 Stonebarb Cracked Tear
+Increased poise/stagger damage dealt
 
-**Carian Regal Scepter** (Recommended by Level 50)
-- Location: Queen's Chamber, Raya Lucaria
-- Requirement: 60 INT (you'll reach this by level 50)
-- Benefit: +25% sorcery scaling vs Meteorite Staff
-- Action: Defeat Rennala and retrieve from boss drop
 
-**Azur's Glintstone Staff** (Best-in-slot for INT builds)
-- Location: Hermit Merchant's Shack, Mt. Gelmir
-- Requirement: 52 INT + 8 Faith (reach by level 60)
-- Benefit: Highest sorcery scaling in game
-- Special Perk: 10% reduced sorcery FP cost
+💡 Use the flask at the start of every major encounter, then immediately place Terra Magica before the boss fight begins.
 
----
 
-### Step 2.3: Expand Your Spell Repertoire
+⚔️ Weapon Upgrade Path
+Both weapons are unique (somber scaling), capping at +10.
 
-**Acquire These Spells by Level 60**:
+Stone
+Where
+Somber 1–4
+Buy from Iji (Three Sisters, Liurnia) after starting Ranni's quest
+Somber 5–7
+Loot in Nokron / buy from Hermit Merchant in Mountaintops
+Somber 8–9
+Buy from merchant in Siofra River or loot in Nokron/Farum Azula
+Somber Ancient
+Found across the world (Nokron, Farum Azula, Elphael); duplicatable via Bell Bearing
 
-| Spell Name | INT Req | FP Cost | Purpose | Priority |
-|------------|---------|---------|---------|----------|
-| **Carian Slicer** | 18 | 13 | Primary DPS | CRITICAL |
-| **Great Glintstone Shard** | 20 | 28 | AoE damage | HIGH |
-| **Comet** | 24 | 27 | Single-target burst | HIGH |
-| **Rock Sling** | 14 | 18 | Poise damage | MEDIUM |
-| **Glintstone Cometshard** | 24 | 21 | Homing projectile | MEDIUM |
-| **Full Moon Sorcery** | 36 | 42 | Wide AoE | LOW (situational) |
 
-**Spell Sourcing Tips**:
-- **Sorcery Vendors**: Raya Lucaria Academy, Primeval Merchant (Siofra River)
-- **Boss Drops**: Defeat academy sorcerers for rare spells
-- **Questline**: Ranni's questline unlocks exclusive spells (optional)
+💡 Upgrade the Carian Regal Scepter first — you'll have it from Phase 2 and it carries you all the way until the DMGS arrives near the end of the game.
 
-⚠️ **FP Management Alert**: Your 40 Mind will provide ~200 FP at level 60. Plan spell rotations accordingly—don't spam high-cost spells continuously.
 
----
+📊 Stat Leveling Priority
+Priority
+Stat
+Why
+1st
+INT → 60
+Massive spell damage jump early
+2nd
+VIG → 40
+Survivability baseline
+3rd
+MND → 20
+FP for casting
+4th
+DEX → 25
+Early DMGS secondary scaling
+5th
+INT → 80
+Softcap; Crown brings effective INT to 83
+6th
+VIG → 60
+Endgame HP floor
+7th
+END → 30, STR → 22
+DMGS stat requirements
+8th
+MND → 30, DEX → 40
+Final polish
 
-### Step 2.4: Talismans & Equipment Refinement
 
-**Optimal Talisman Setup** (4 slots):
 
-1. **Claw Mark Seal** 🔷
-   - +3 Intelligence
-   - Source: Limgrave
-   - Mandatory for all builds
+✨ Spell Priority & Usage
+Spell
+Use Case
+🌙 Ranni's Dark Moon
+Boss opener; debuffs magic resistance so all follow-up spells hit harder
+🟩 Terra Magica
+Place before every serious fight; +35% spell damage while standing in it
+❄️ Zamor Ice Storm
+AoE and Frostbite buildup vs. slow/large bosses
+💎 Gavel of Haima
+Poise-break closer at melee range; single massive hit
+🔵 Glintstone Icecrag
+Reliable mid-range damage, great tracking
+🪨 Blades of Stone
+Mid-range burst spread
+💅 Greatblade Phalanx
+Delayed orbital volley; strong vs. bosses that pause after attacks
+🫧 Oracle Bubbles
+Homing chip damage; great vs. evasive enemies
+🔵 Glintstone Nails
+Close-medium rapid burst; high DPS if you stay aggressive
+💥 Shatter Earth
+AoE slam at your feet; good for surrounded situations
 
-2. **Radagon's Icon** ⏳
-   - Spell casting speed +30%
-   - Source: Radagon's Divine Tower
-   - Critical for DPS optimization
 
-3. **Ritual Pod Charm** 🌱
-   - Sorcery FP cost -10%
-   - Source: Softree Marsh, Siofra River
-   - Extends spell availability per rest
 
-4. **Pearl Drake Talisman** 🛡️
-   - Magic defense +10%
-   - Source: Crumbling Azul
-   - Defensive insurance
+🏁 Boss Fight Rotation
+Drop Terra Magica circle — stand in it for the entire fight.
+Use Flask of Wondrous Physick for the magic damage boost.
+Open with Ranni's Dark Moon — applies magic resistance debuff.
+Follow up with Glintstone Icecrag or Zamor Ice Storm depending on enemy mobility.
+At melee range, swap to Dark Moon Greatsword and use the Moonlight Greatsword weapon skill — fires a magic wave and restores FP on hit.
+Shard of Alexander amplifies all weapon skill damage significantly.
+Magic Scorpion Charm + Ranni's Dark Moon debuff stacks for maximum magic damage output.
 
-**Armor Refinement**:
-- Upgrade **Carian Knight Set** to +5 at blacksmith (15 Smithing Stones)
-- Consider switching to lighter **Raya Lucaria Sorcerer Set** if weight is excessive
-- Target: <70% equip load (medium-roll)
+Good luck, Tarnished. 🌙
 
----
-
-### Step 2.5: Boss Fight Optimization
-
-**Recommended Boss Targets & Strategies**:
-
-| Boss | Location | Strategy | Reward |
-|------|----------|----------|--------|
-| **Rennala** | Raya Lucaria | Ranged spam from distance | Staff upgrade |
-| **Red Wolf of Radagon** | Academy | Practice backstep + Carian Slicer | Combat fundamentals |
-| **Margit, the Fell Omen** | Limgrave | Comet + Rock Sling burst | Rune access |
-
-**Combat Pattern**:
-1. Stay 30+ feet away (out of melee range)
-2. Open with **Comet** (highest damage)
-3. Follow with 2-3 **Carian Slicers** while boss recovers
-4. Dodge sideways or backstep when boss approaches
-5. Repeat pattern until victory
-
-**Expected Outcome**:
-- ✅ Level 60+ achieved
-- ✅ 4 talismans equipped for optimization
-- ✅ 6+ viable sorceries in rotation
-- ✅ Staff upgraded to Carian Regal Scepter or better
-
----
-
-## 🏆 Phase 3: Advanced Mastery (Level 70-125) 🔮
-
-### Step 3.1: Final Stat Distribution
-
-**Target Level 125 Final Stats**:
-
-| Attribute | Final Value | Total Investment | Notes |
-|-----------|------------|------------------|-------|
-| **Vigor** | 60 | 51 levels | Hardcap reached; 1,800 HP |
-| **Mind** | 51 | 35 levels | Meta-cap; 288 FP for rotations |
-| **Intelligence** | 99 | 83 levels | Hardcap; maximum INT scaling |
-| **Endurance** | 16 | 4 levels | Light-medium equipment flexibility |
-| **Strength** | 10 | 0 levels | Dump stat; no DEX req either |
-| **Dexterity** | 10 | 0 levels | Minimal casting speed gains |
-| **Faith** | 8 | 0 levels | Only if using Azur's Staff |
-
-**Level Distribution Verification**:
-- Starting Level: 10 (Astrologer)
-- Total Levels Added: 115
-- **Total Character Level: 125** ✅
-
----
-
-### Step 3.2: Optimal Equipment Setup
-
-**PRIMARY LOADOUT** (Pure INT Sorcery):
-
-**Weapons**:
-- **Right Hand**: Azur's Glintstone Staff +10 (or Carian Regal Scepter +10)
-- **Left Hand**: Spiraling Shield or Brass Shield (100% physical block for emergencies)
-- Alternative: Carian Thrusting Shield (allows poke + shield mechanic)
-
-**Armor** (51 Poise Breakpoint - Equips 51 in armor):
-
-| Piece | Equipment | Poise | Weight | Reason |
-|-------|-----------|-------|--------|--------|
-| **Head** | Carian Knight Helm | 3.8 | 4.6 | INT scaling |
-| **Chest** | Carian Knight Armor | 10.2 | 8.2 | Balance optimal |
-| **Arms** | Carian Knight Gauntlets | 4.1 | 3.2 | Matching set |
-| **Legs** | Carian Knight Greaves | 6.3 | 5.4 | Sufficient poise |
-| **TOTAL** | — | 24.4 | 21.4 | Under 70% load ✅ |
-
-⚠️ **Poise Note**: 51 poise prevents medium-weapon staggers—critical for survivability when enemies close distance.
-
-**Alternative Armor** (if you prefer lighter aesthetics):
-- **Raya Lucaria Sorcerer Helm** + Robe + Gloves + Pants
-- Slightly less defense but 2-3% less weight
-
----
-
-### Step 3.3: Talisman Optimization (Final Configuration)
-
-**Mandatory 4-Slot Setup**:
-
-1. **Claw Mark Seal** 🔷
-   - +3 Intelligence (non-negotiable)
-   - Slot 1
-
-2. **Radagon's Icon** ⏳
-   - +30% casting speed (DPS essential)
-   - Slot 2
-
-3. **Ritual Pod Charm** 🌱
-   - -10% sorcery FP cost (sustain essential)
-   - Slot 3
-
-4. **Magic-Fortify Scorpion Charm** 🦂
-   - +12% sorcery damage (DPS +15%)
-   - Slot 4
-   - Alternative: **Godfrey's Icon** if facing physical-heavy enemies
-
-**Optional Swap Talismans** (for specific boss fights):
-- **Millicent's Prosthesis**: +10% attack power when stacking positive effects
-- **Great-Jar's Arsenal**: Extra equip load (swap mid-fight if needed)
-- **Dragoncrest Greatshield**: Magic defense vs spell-casting enemies
-
----
-
-### Step 3.4: Final Spell Rotation & Loadout
-
-**Your Complete Spell Arsenal** (8 spell slots):
-
-| # | Spell | INT Req | FP Cost | Use Case | Slot |
-|---|-------|---------|---------|----------|------|
-| 1 | **Carian Slicer** | 18 | 13 | Primary DPS loop | LEFT |
-| 2 | **Comet** | 24 | 27 | Burst damage | RIGHT |
-| 3 | **Great Glintstone Shard** | 20 | 28 | AoE damage | LEFT |
-| 4 | **Rock Sling** | 14 | 18 | Poise damage | RIGHT |
-| 5 | **Glintstone Cometshard** | 24 | 21 | Homing projectile | LEFT |
-| 6 | **Shard Spiral** | 33 | 42 | Crowd control | RIGHT |
-| 7 | **Meteorite of Astel** | 46 | 50 | Heavy burst | RIGHT |
-| 8 | **Carian Grandeur** | 55 | 60 | Maximum damage spell | LEFT |
-
-**Spell Rotation Priority**:
-1. **Left-hand spells**: Quick casting loop (Carian Slicer → Great Glintstone → repeat)
-2. **Right-hand spells**: Burst/situational (Comet for burst, Rock Sling for poise breaks)
-3. **Resource management**: Cast slicer 2-3× per second; full Comet rotation every 5 seconds
-
----
-
-### Step 3.5: Combat Tactics & Positioning
-
-#### 🎯 Offensive Strategy
-
-**Opening Sequence**:
-1. Position 40+ feet away (out of enemy melee range)
-2. Open with **Comet** (27 FP, ~300 damage)
-3. Continue with **Carian Slicer** spam (13 FP each, ~150 damage)
-4. Use **Rock Sling** when enemy approaches (breaks poise at 30 poise damage)
-5. Follow poise break with charged **Great Glintstone Shard** (AoE setup)
-
-**Mana Management**:
-- 288 FP pool at 51 Mind
-- Carian Slicer chain: 22 casts before empty
-- Target: Never let FP drop below 27 (minimum for Comet safety)
-- Potion Usage: Cerulean Tears restore 100 FP (carry 8-10)
-
-#### 🛡️ Defensive Strategy
-
-**When Enemy Approaches**:
-1. **Backstep dodge** (press circle/B + back) - creates distance
-2. Alternative: **Quickstep ash of war** if available (on shield)
-3. Emergency spell: **Thops's Barrier** (-50% damage for 5 seconds)
-4. Last resort: **Shield Bash** with equipped shield
-
-**Death Prevention**:
-- Never cast below 27 FP (can't cast Comet for escape)
-- Always keep 300+ HP buffer (avoid low-health patterns)
-- Position near walls/pillars (use as cover)
-- Equip Radagon's Icon for faster casting escape
-
----
-
-### Step 3.6: Weapon Upgrades & Smithing
-
-**Meteorite Staff** → **+10 (Fully Upgraded)**
-
-**Upgrade Path**:
-- Base to +5: 10 × Regular Smithing Stone
-- +5 to +10: 8 × Ancient Dragon Smithing Stone
-- **Total**: 18 upgrade items needed
-
-**Where to Get Stones**:
-- Limgrave ruins: 2 per location (6 locations)
-- Siofra River: 3 Ancient Dragon Smithing Stones
-- Farum Azula: 2 Ancient Dragon Smithing Stones
-- Boss drops: Special weapons only (not needed)
-
-**Upgrade Schedule**:
-- **By Level 80**: Reach +5 (halfway there)
-- **By Level 100**: Reach +8 (final power spike)
-- **By Level 125**: Reach +10 (maximum)
-
----
-
-## ⚠️ Critical Warnings & Tips 🚨
-
-### 🔴 High-Priority Warnings
-
-| Warning | Risk | Mitigation |
-|---------|------|-----------|
-| **Low Vigor** | One-shot deaths | Maintain 60 Vigor; use Ritual Pot Talisman (+8% max HP) |
-| **FP Starvation** | Unable to cast mid-fight | Carry 8-10 Cerulean Tears; rest at Sites of Grace regularly |
-| **Over-weight** | Lose medium-roll ability | Keep equip load <70%; remove extra armor pieces |
-| **Melee Range Encounters** | Instant death | Practice backstep dodging; never engage in close quarters |
-| **Magic Negation Enemies** | Zero damage output | Carry backup physical weapon (dagger with poke skill) |
-| **Boss Delayed Attacks** | Misspaced dodges | Study boss patterns; dodge LATE, not early |
-
-### 💡 Expert Tips for Success
-
-**Tip #1 - Spell Casting Cancellation**:
-- Press sprint button during cast to cancel animation
-- Useful for enemy pressure moments
-- Saves FP when interrupted
-
-**Tip #2 - Talismans Hardswap**:
-- Equip 4 talismans before combat
-- Mid-fight swaps cause animation lag
-- Plan your talisman loadout for specific bosses beforehand
-
-**Tip #3 - Staff Swap Strategy**:
-- Keep Meteorite Staff as secondary (faster cast speed)
-- Use Azur's Staff for damage phases
-- Switch after 3-4 Comet casts
-
-**Tip #4 - Cerulean Tear Management**:
-- FP-restore tears are your lifeline
-- Carry maximum allocation (8-10)
-- Never use below 2 full casts worth of FP available
-
-**Tip #5 - Magic Resistance Breaking**:
-- Some enemies have 40+ magic negation
-- Use multiple casting types: sorcery + pyromancy hybrids optional
-- Rock Sling + Physical Damage backup for these encounters
-
----
-
-## 🎯 Expected Outcomes & Performance Benchmarks
-
-### Level 60 Checkpoint
-**Damage Output**:
-- Carian Slicer: 110-140 damage per cast
-- Comet: 280-320 damage per cast
-- Spell DPS: ~900 damage/second (sustained)
-
-**Survivability**:
-- HP: 600-700
-- Poise: 24
-- Magic Defense: +15%
-- Roll Type: Medium (iframes at 13 frames)
-
-**Viability**: PvE content manageable; challenging bosses require spell rotation discipline
-
----
-
-### Level 100 Checkpoint
-**Damage Output**:
-- Carian Slicer: 180-210 damage per cast
-- Comet: 480-540 damage per cast
-- Spell DPS: ~1,400 damage/second (sustained)
-
-**Survivability**:
-- HP: 1,200-1,400
-- Poise: 51 (staggers prevented)
-- Magic Defense: +25%
-- Roll Type: Medium (iframes at 13 frames)
-
-**Viability**: Most PvE content easily cleared; endgame bosses require tactics
-
----
-
-### Level 125 Final Build (Target)
-**Damage Output**:
-- Carian Slicer: 240-280 damage per cast
-- Comet: 650-750 damage per cast
-- Spell DPS: ~2,000 damage/second (sustained)
-
-**Survivability**:
-- HP: 1,800-2,000
-- Poise: 51 (staggers prevented)
-- Magic Defense: +35%
-- Roll Type: Medium (iframes at 13 frames)
-
-**Viability**: All PvE content clearable; PvP viable with skill; speedrun capable
-
----
-
-## 📊 Build Variations & Alternatives
-
-### 🔷 Variation A: "Dark Moon Greatsword Mage" (Spellblade Hybrid)
-
-**Stat Adjustment**:
-- INT: 80 → 70
-- STR: 10 → 18
-- DEX: 10 → 11
-
-**Equipment**:
-- Right Hand: Dark Moon Greatsword (INT+FAI scaling)
-- Left Hand: Azur's Glintstone Staff
-
-**Advantage**: Melee option when enemies close distance
-**Disadvantage**: Lower spell damage (INT investment split)
-
----
-
-### 🔷 Variation B: "Carian Sovereignty" (High Poise Setup)
-
-**Stat Adjustment**:
-- Endurance: 16 → 22
-- Vigor: 60 → 55
-
-**Equipment**:
-- Add heavy chest piece (Carian Knight Armor → Raya Lucaria Robe)
-- Equip medium shield with Barricade skill
-
-**Advantage**: Survives 2-hit combos; can block with shield
-**Disadvantage**: Slower casting speed; restricted positioning
-
----
-
-### 🔷 Variation C: "Comet Azur Blaster" (Burst Specialist)
-
-**Special Equipment**:
-- Ritual Pot Charm → Azur's Seal (increases sorcery scaling +30%)
-- Spell: Comet Azur (channeled laser, 99 FP cost)
-
-**Strategy**: Bait attacks → channel Comet Azur → instant kill
-
-**Advantage**: One-spell boss deletion potential
-**Disadvantage**: Vulnerability during cast; requires perfect timing
-
----
-
-## 🔄 Leveling Progression Summary
-
-### Quick Reference Table
-
-| Level | Primary Goal | Secondary Goal | Key Milestone |
-|-------|--------------|-----------------|---------------|
-| 10-30 | Vigor → 20, INT → 24 | Acquire Meteorite Staff | First spell rotation |
-| 30-50 | Vigor → 35, INT → 50 | Upgrade staff to Carian | 6+ spells unlocked |
-| 50-70 | Vigor → 40, INT → 60 | Acquire Azur's Staff | Talismans optimized |
-| 70-100 | Vigor → 55, Mind → 48 | Max 51 Poise breakpoint | Combat mastery phase |
-| 100-125 | Vigor → 60, INT → 99 | Final equipment upgrades | Build completion |
-
----
-
-## ✅ Final Checklist Before Multiplayer/PvP
-
-Use this checklist to verify your build is complete:
-
-### Character Stats
-- [ ] Vigor: 60 (hardcap reached)
-- [ ] Mind: 51 (meta-cap reached)
-- [ ] Intelligence: 99 (hardcap reached)
-- [ ] Endurance: 16 (sufficient flexibility)
-- [ ] Character Level: 125 (multiplayer optimized)
-
-### Equipment
-- [ ] Primary Staff: Azur's Glintstone Staff +10
-- [ ] Secondary Staff: Carian Regal Scepter +10
-- [ ] Shield: Spiraling Shield or Brass Shield (100% physical block)
-- [ ] Full Armor Set: 51 Poise minimum
-- [ ] Equip Load: <70% (medium-roll capability)
-
-### Spells Acquired
-- [ ] Carian Slicer (essential DPS)
-- [ ] Comet (burst damage)
-- [ ] Rock Sling (poise breaking)
-- [ ] Great Glintstone Shard (AoE)
-- [ ] 4 additional utility spells
-
-### Talismans Equipped
-- [ ] Claw Mark Seal +3 INT
-- [ ] Radagon's Icon +30% cast speed
-- [ ] Ritual Pod Charm -10% FP cost
-- [ ] Magic-Fortify Scorpion Charm +12% spell damage
-
-### Consumables Stocked
-- [ ] Cerulean Tears: 8-10 (FP recovery)
-- [ ] Great Rune active (from latest boss)
-- [ ] Physick flask prepared (consider Thorny Cracked Tear + Magic Shrouding Tear)
-
-### Practice Complete
-- [ ] Successfully defeated 5+ bosses with spell rotation
-- [ ] Backstep dodging mechanics mastered
-- [ ] FP management practiced (never run dry in combat)
-- [ ] Spell positioning understood (distance management)
-
----
-
-## 🏁 Conclusion & Next Steps
-
-**You've Successfully Created an INT Build When**:
-✅ You can sustain 2,000 DPS spell output for 30+ seconds  
-✅ You survive boss one-shot attacks with proper positioning  
-✅ You manage FP pool without running empty mid-combat  
-✅ You defeat endgame bosses consistently within 3 attempts  
-
-**For Further Optimization**:
-- Explore boss-specific talisman swaps
-- Practice spell rotation cancellation techniques
-- Learn enemy attack patterns for perfect dodge timing
-- Consider hybrid builds once you master pure INT
-
----
-
-**Build Creator Notes**: This guide reflects post-DLC patch optimization (v2.5.1+). Stats and equipment balance may shift with future patches. Always verify scaling values in-game before committing to major stat investments.
-
-🔮 **Happy Spellcasting!** 🔮
-
----
-
-*For questions or build variations, consult your local Raya Lucaria Academy sorcerer.*
