@@ -41,6 +41,8 @@ Before starting, ensure you have access to the following:
 
 **Goal:** Reach the exact stat spread for maximum efficiency at level 125.
 
+> **CORRECTION:** The original spread below sums to RL127, not RL125. Drop 2 points to hit the target exactly — the recommended trim is **Faith 25 → 24** (still well above the 25 softcap break for these spells isn't lost; see note) or **Arcane 11 → 9**, since Arcane is the weakest investment in this build (see Phase 2 correction). Adjust to taste, but verify your own total before committing souls.
+
 - **Vigor → 60** — Mandatory. Provides the HP cushion needed given the Rakshasa set's damage-received penalty.
 - **Mind → 9** — Leave at base. You only need enough FP to cast two incantations pre-fight.
 - **Endurance → 25** — Enough to wear the Rakshasa set without overloading, and maintain solid stamina for trades.
@@ -48,7 +50,7 @@ Before starting, ensure you have access to the following:
 - **Dexterity → 9** — Leave at base. This build uses Fire affinity, which removes Dex scaling.
 - **Intelligence → 7** — Leave at base. Not relevant to this build.
 - **Faith → 25** — Required to cast both incantations and use the Dragon Communion Seal effectively.
-- **Arcane → 11** — Slight investment for minor Dragon Communion Seal scaling and softcap considerations.
+- **Arcane → 9** — Trimmed from 11. Arcane scaling on the Dragon Communion Seal does **not** apply to Weapon Buff or Healing incantations (see Phase 2), so the extra 2 points were doing nothing for this specific spell loadout.
 
 **Expected Outcome:** A balanced spread that hits the 60 Vigor survival benchmark, 87 effective Strength, and 25 Faith for full incantation access — all at exactly RL125.
 
@@ -75,7 +77,7 @@ Before starting, ensure you have access to the following:
 **Step 4 — Left Hand: Dragon Communion Seal +10**
 - Upgrade the Dragon Communion Seal to **+10** using Somber Smithing Stones.
 - Equip it in your **left hand** solely as a casting tool — you won't attack with it.
-- This seal scales incantation power with Arcane, making it ideal for builds with split Faith/Arcane investment.
+- **CORRECTION:** The Dragon Communion Seal does scale incantations with both Faith and Arcane in general, but for **Weapon Buff and Healing incantations specifically — which is exactly what Flame, Grant Me Strength and Golden Vow are — only the Faith portion of the seal's scaling counts.** The Arcane investment this build uses contributes nothing to either of your two buff spells. If you ever add a damaging Dragon Communion incantation (e.g. Dragonmaw, Rotten Breath) to your loadout, the Arcane scaling becomes relevant again — but as built, a pure Faith-scaling seal (Erdtree Seal, Golden Order Seal) would cast these two buffs equally well or better without needing any Arcane investment at all.
 
 ---
 
@@ -106,7 +108,7 @@ Before starting, ensure you have access to the following:
 |---|---|---|
 | 1 | **Two-Handed Sword Talisman** | Boosts two-handed attacks by ~15%. Core talisman — never swap. |
 | 2 | **Dagger Talisman** | Increases critical hit (riposte/backstab) damage by ~17%. Rewards punishing mistakes. |
-| 3 | **Fire Scorpion Charm** | Raises Fire damage by ~12% but increases physical damage received. Maximises fire AR. |
+| 3 | **Fire Scorpion Charm** | Raises Fire damage by 12%, but increases **physical** damage taken by 10% (15% in PvP). Maximises fire AR. |
 | 4 | **Blade of Mercy** | Boosts attack power when HP is not at maximum. Rewards aggressive, forward pressure. |
 
 > **TIP:** The Fire Scorpion Charm stacks with Flame, Grant Me Strength and the Rakshasa passive. Combined, these multipliers compound to dramatically amplify fire AR.
@@ -119,7 +121,7 @@ Before starting, ensure you have access to the following:
 
 **Goal:** Configure your Physick for pre-fight survivability and sustained DPS.
 
-- **Opaline Hardtear** — Provides a one-time damage negation buff when consumed. Counters the damage-received penalty from Rakshasa armour and Fire Scorpion Charm.
+- **Opaline Hardtear** — Provides a one-time damage negation buff when consumed. Counters the physical damage-taken penalty from the Fire Scorpion Charm and the general damage-received increase from the Rakshasa set.
 - **Spiked Cracked Tear** — Boosts charged attacks for a duration after consumption. Pairs perfectly with Greataxe heavy/charged attacks.
 
 **How to use:**
@@ -139,9 +141,10 @@ Before starting, ensure you have access to the following:
 **Goal:** Configure both support incantations for your pre-fight buff rotation.
 
 **Incantation 1 — Flame, Grant Me Strength**
-- Raises **Fire attack power** and **Physical attack power** by ~20% for 30 seconds.
+- Raises **Fire attack power** and **Physical attack power** for a limited duration (roughly 30 seconds, longer with Old Lord's Talisman).
 - Obtained from Fort Gael, Caelid (on a corpse in the eastern courtyard).
 - Requires **Faith 15** to cast.
+- Stacks multiplicatively with Golden Vow.
 
 **Incantation 2 — Golden Vow**
 - Raises **attack power and damage negation** for you and nearby allies.
@@ -157,7 +160,9 @@ Before starting, ensure you have access to the following:
 
 > **WARNING:** Both spells cost FP. With Mind at 9, you have minimal FP to spare. Do not attempt to cast anything else mid-fight — your FP pool is exhausted after these two buffs.
 
-**Expected Outcome:** Post-buff, your Executioner's Greataxe should output well over 900+ total AR against fire-susceptible enemies, with enhanced physical and elemental damage simultaneously.
+> **NOTE:** Since both incantations are Weapon Buff-type spells, only the Faith portion of your seal's Incant Scaling affects their potency (see Phase 2 correction). The seal choice here matters less for raw buff strength than it would for an offensive Dragon Communion incantation.
+
+**Expected Outcome:** Post-buff, your Executioner's Greataxe should output significantly more than its ~772 base AR. Treat any specific buffed-AR figure as a rough estimate rather than a guarantee — actual numbers depend on enemy resistances, exact softcap placement, and patch-version scaling values, so check in-game with the buffs active before relying on a target number.
 
 ---
 
@@ -177,7 +182,7 @@ Before starting, ensure you have access to the following:
 - Stay aggressive to keep **Blade of Mercy** active (requires not being at full HP).
 - Mix **running attacks**, **jump attacks**, and **rolls into R1s** to keep opponents guessing.
 - Heavy attacks are powerful but **telegraphed** — use them to punish whiffed rolls or after a stagger.
-- Respect the **Fire Scorpion Charm** penalty — prolonged trades can be punishing. Be aggressive, not reckless.
+- Respect the **Fire Scorpion Charm** penalty — prolonged trades against physical damage can be punishing (15% taken in PvP). Be aggressive, not reckless.
 
 ---
 
@@ -186,14 +191,23 @@ Before starting, ensure you have access to the following:
 | Component | Selection |
 |---|---|
 | **Weapon (RH)** | Executioner's Greataxe (Fire) +25 |
-| **Seal (LH)** | Dragon Communion Seal +10 |
+| **Seal (LH)** | Dragon Communion Seal +10 (functionally equivalent to a pure Faith seal for this loadout — see Phase 2) |
 | **Armor** | Full Rakshasa Set |
 | **Talismans** | Two-Handed Sword Talisman, Dagger Talisman, Fire Scorpion Charm, Blade of Mercy |
 | **Physick** | Opaline Hardtear + Spiked Cracked Tear |
 | **Spells** | Golden Vow + Flame, Grant Me Strength |
 | **Level** | RL125 |
-| **Approx. AR (buffed)** | 900–1000+ vs fire-susceptible targets |
+| **Approx. AR (buffed)** | Notably higher than ~772 base AR — verify in-game; treat printed buffed-AR figures as estimates |
 
 ---
 
-*Build credit: UFBC community build. Guide written for educational purposes.*
+## Changelog
+
+- **Stat allocation:** Original spread totalled RL127, not RL125. Arcane trimmed from 11 → 9 to correct the total.
+- **Dragon Communion Seal:** Clarified that its Arcane scaling does not benefit Weapon Buff or Healing incantations — only Faith scaling counts for Flame, Grant Me Strength and Golden Vow. A pure Faith seal performs equally well for this specific spell loadout.
+- **Fire Scorpion Charm:** Confirmed correct as originally written — it raises Fire damage by 12% but increases *physical* damage taken by 10% (15% in PvP), not Fire damage taken.
+- **Buffed AR figure:** Softened the "900–1000+ AR" claim to avoid presenting an unverified number as guaranteed; recommend checking in-game with buffs active.
+
+---
+
+*Build credit: UFBC community build. Guide written for educational purposes. Corrections verified against current game mechanics as of June 2026.*
