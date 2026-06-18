@@ -12,10 +12,10 @@ Before starting, ensure you have access to the following:
 | Category | Item | Notes |
 |---|---|---|
 | **Starting Class** | Hero | Best base stats for this build |
-| **Weapon** | Executioner's Greataxe | Dropped by Leyndell Knight Executioners |
+| **Weapon** | Executioner's Greataxe | Dropped by axe-wielding Skeleton enemies (~4% drop chance) |
 | **Upgrade Material** | Smithing Stones 1–8 + Ancient Dragon Smithing Stone | For +25 upgrade |
 | **Sacred Seal** | Dragon Communion Seal | Found in Fringefolk Hero's Grave |
-| **Armor** | Full Rakshasa Set | Purchased from Finger Reader Enia after defeating Malenia |
+| **Armor** | Full Rakshasa Set | One-time drop from the Rakshasa boss, Eastern Nameless Mausoleum (Shadow of the Erdtree DLC) |
 | **Talismans** | See Talismans section below | All 4 required |
 | **Crystal Tears** | Opaline Hardtear + Spiked Cracked Tear | Found across the Lands Between |
 | **Incantations** | Golden Vow + Flame, Grant Me Strength | Both require Faith investment |
@@ -25,7 +25,7 @@ Before starting, ensure you have access to the following:
 
 ## Critical Warnings & Tips
 
-> **WARNING:** The Rakshasa set increases damage dealt but **also increases damage received**. Activate your Flask of Wondrous Physick before engaging enemies to compensate.
+> **WARNING:** The Rakshasa set increases damage dealt but **also increases damage received** (2% per piece, both ways). Activate your Flask of Wondrous Physick before engaging enemies to compensate.
 
 > **TIP:** Always two-hand the Greataxe in combat. The Two-Handed Sword Talisman specifically boosts two-handed attacks — you lose significant damage by one-handing.
 
@@ -33,7 +33,7 @@ Before starting, ensure you have access to the following:
 
 > **WARNING:** Mind is set to 9 (base for Hero). You have very limited FP — use it only for pre-fight buffs, not mid-combat. Manage resources carefully.
 
-> **TIP:** In PvP, the Blade of Mercy talisman rewards aggressive, unrelenting pressure. Don't retreat — stay in the opponent's face to maximise its benefit.
+> **TIP:** In PvP, the Blade of Mercy talisman rewards landing critical hits — riposte off a parry, or punish a whiffed roll with a backstab — not simply staying aggressive while damaged. Plan your openings around scoring that first crit to unlock the 20% buff window.
 
 ---
 
@@ -41,7 +41,7 @@ Before starting, ensure you have access to the following:
 
 **Goal:** Reach the exact stat spread for maximum efficiency at level 125.
 
-> **CORRECTION:** The original spread below sums to RL127, not RL125. Drop 2 points to hit the target exactly — the recommended trim is **Faith 25 → 24** (still well above the 25 softcap break for these spells isn't lost; see note) or **Arcane 11 → 9**, since Arcane is the weakest investment in this build (see Phase 2 correction). Adjust to taste, but verify your own total before committing souls.
+> **CORRECTION:** The original spread below sums to RL127, not RL125. Drop 2 points to hit the target exactly — the recommended trim is **Arcane 11 → 9**, since Arcane is the weakest investment in this build (see Phase 2 correction: it doesn't contribute to either buff spell). Adjust to taste, but verify your own total before committing souls.
 
 - **Vigor → 60** — Mandatory. Provides the HP cushion needed given the Rakshasa set's damage-received penalty.
 - **Mind → 9** — Leave at base. You only need enough FP to cast two incantations pre-fight.
@@ -61,8 +61,9 @@ Before starting, ensure you have access to the following:
 **Goal:** Bring the Executioner's Greataxe to maximum upgrade and correct affinity.
 
 **Step 1 — Obtain the Executioner's Greataxe**
-- Farm Leyndell Knight Executioners in Leyndell, Royal Capital (or Ashen Capital post-Maliketh).
-- The weapon has a low drop rate — equip Gold Scarab talisman or use Silver-Pickled Fowl Foot to boost item discovery.
+- **CORRECTION:** This weapon is **not** dropped by Leyndell Knight Executioners — that enemy/weapon pairing was incorrect. It's dropped by axe-wielding **Skeleton** enemies (the standard reanimated skeleton type carrying this weapon), with a roughly 4% drop chance.
+- Reliable farm spots: a Skeleton spawns in a narrow crevice near the **Church of the Plague** in Caelid (northeast of the church, between fallen stone arches); another spawns in the **graveyard above Academy Gate Town**, reachable from the South Raya Lucaria Gate Site of Grace; a third spawns in a graveyard **west of Church of Irith** in Liurnia of the Lakes.
+- Given the low drop rate, equip Gold Scarab talisman or use Silver-Pickled Fowl Foot to boost item discovery while farming.
 
 **Step 2 — Apply Fire Affinity**
 - Locate a Whetstone Knife (found in Limgrave, Gatefront Ruins) to unlock Ash of War application.
@@ -91,10 +92,11 @@ Before starting, ensure you have access to the following:
 - **Rakshasa Greaves**
 
 **How to obtain:**
-- Defeat **Malenia, Blade of Miquella** (Haligtree, Elphael).
-- Purchase the full set from **Finger Reader Enia** at the Roundtable Hold.
+- **CORRECTION:** The Rakshasa Set has no connection to Malenia or Finger Reader Enia. It is dropped in full by defeating the **Rakshasa** boss (a Great Katana-wielding enemy) in the **Eastern Nameless Mausoleum**, a location in the Shadow of the Erdtree DLC.
+- Reach it from the **Castle Watering Hole** Site of Grace in the Land of Shadow: head south to the **Recluses' River Downstream** Site of Grace (past a Furnace Golem), then drop down the cliffside platforms heading northeast until you reach the mausoleum.
+- Defeating Rakshasa awards all four armor pieces plus Rakshasa's Great Katana in one drop — no repeat farming needed.
 
-> **WARNING:** Each piece of the Rakshasa set **increases damage dealt AND damage received**. The full set provides a meaningful DPS increase, but you become squishier — your 60 Vigor and Physick mitigate this tradeoff.
+> **WARNING:** Each piece of the Rakshasa set **increases damage dealt by 2% and damage received by 2%** (up to +8%/+8% for the full set). This is a meaningful DPS increase, but you become squishier — your 60 Vigor and Physick mitigate this tradeoff.
 
 **Expected Outcome:** Mid-weight armour set providing the Rakshasa passive damage bonus across all four slots, keeping you in medium load for optimal roll speed.
 
@@ -106,14 +108,14 @@ Before starting, ensure you have access to the following:
 
 | Slot | Talisman | Effect |
 |---|---|---|
-| 1 | **Two-Handed Sword Talisman** | Boosts two-handed attacks by ~15%. Core talisman — never swap. |
+| 1 | **Two-Handed Sword Talisman** | Boosts normal/charged/jumping attacks and guard counters by 15% while two-handing a single weapon. Does **not** apply to backstabs, ripostes, or Ashes of War — crit damage is covered separately by the Dagger Talisman below. Core talisman — never swap. |
 | 2 | **Dagger Talisman** | Increases critical hit (riposte/backstab) damage by ~17%. Rewards punishing mistakes. |
 | 3 | **Fire Scorpion Charm** | Raises Fire damage by 12%, but increases **physical** damage taken by 10% (15% in PvP). Maximises fire AR. |
-| 4 | **Blade of Mercy** | Boosts attack power when HP is not at maximum. Rewards aggressive, forward pressure. |
+| 4 | **Blade of Mercy** | **CORRECTION:** Triggers on landing a **critical hit** (backstab, riposte, or parry), not from missing HP. Raises Attack Power by 20% for 20 seconds after the crit; landing another crit refreshes the duration. Pairs naturally with the Dagger Talisman. |
 
 > **TIP:** The Fire Scorpion Charm stacks with Flame, Grant Me Strength and the Rakshasa passive. Combined, these multipliers compound to dramatically amplify fire AR.
 
-**Expected Outcome:** All four talismans create a self-reinforcing offensive loop — two-hand for raw AR, stay aggressive for Blade of Mercy, and land criticals for massive burst damage.
+**Expected Outcome:** All four talismans create a self-reinforcing offensive loop — two-hand for raw AR, land a critical hit to trigger Blade of Mercy, and chain criticals together for massive burst damage.
 
 ---
 
@@ -179,7 +181,7 @@ Before starting, ensure you have access to the following:
 
 ### PvP Playstyle
 - Buff **before** the fight starts — opponents will not always give you time to cast.
-- Stay aggressive to keep **Blade of Mercy** active (requires not being at full HP).
+- Look for openings to land a **critical hit** (riposte off a parry, backstab a whiff) to trigger Blade of Mercy's 20-second attack power window — this talisman does not reward simply staying at low HP.
 - Mix **running attacks**, **jump attacks**, and **rolls into R1s** to keep opponents guessing.
 - Heavy attacks are powerful but **telegraphed** — use them to punish whiffed rolls or after a stagger.
 - Respect the **Fire Scorpion Charm** penalty — prolonged trades against physical damage can be punishing (15% taken in PvP). Be aggressive, not reckless.
@@ -203,11 +205,25 @@ Before starting, ensure you have access to the following:
 
 ## Changelog
 
+**Round 2 corrections (this pass):**
+- **Executioner's Greataxe drop source — major error:** The original guide claimed it drops from "Leyndell Knight Executioners," an enemy/weapon pairing that doesn't exist in-game. It actually drops from regular axe-wielding **Skeleton** enemies (~4% chance), found near the Church of the Plague (Caelid), the graveyard above Academy Gate Town (Liurnia), and west of Church of Irith (Liurnia).
+- **Rakshasa Set acquisition — major error:** The original guide invented a Malenia/Finger Reader Enia acquisition path. The set is actually a one-time drop from defeating the **Rakshasa** boss in the **Eastern Nameless Mausoleum** (Shadow of the Erdtree DLC), reached via the Castle Watering Hole Site of Grace.
+- **Blade of Mercy trigger — mechanical error:** The original guide said it activates from being below full HP. It actually triggers from landing a **critical hit** (backstab/riposte/parry), granting +20% attack power for 20 seconds. All downstream PvP advice referencing this talisman has been corrected to match.
+- **Rakshasa Set bonus — added precision:** Confirmed each piece gives exactly +2% damage dealt / +2% damage taken (up to +8%/+8% for the full set), rather than the original's vague "meaningful DPS increase."
+- **Two-Handed Sword Talisman — added precision:** Confirmed it does not apply to backstabs, ripostes, or Ashes of War, clarifying its actual scope relative to the Dagger Talisman.
+
+**Confirmed correct on recheck (no change needed):**
+- Fire Scorpion Charm: correctly described as +12% Fire damage / +10% physical damage taken (+8%/+15% in PvP).
+- Dragon Communion Seal location (Fringefolk Hero's Grave) is correct.
+- Flame, Grant Me Strength location (Fort Gael, Caelid) and Faith 15 requirement are correct.
+- Golden Vow location (Corpse-Stench Shack, Mt. Gelmir) and Faith 25 requirement are correct.
+- Opaline Hardtear and Spiked Cracked Tear effects are correctly described.
+
+**Round 1 corrections (previous pass):**
 - **Stat allocation:** Original spread totalled RL127, not RL125. Arcane trimmed from 11 → 9 to correct the total.
-- **Dragon Communion Seal:** Clarified that its Arcane scaling does not benefit Weapon Buff or Healing incantations — only Faith scaling counts for Flame, Grant Me Strength and Golden Vow. A pure Faith seal performs equally well for this specific spell loadout.
-- **Fire Scorpion Charm:** Confirmed correct as originally written — it raises Fire damage by 12% but increases *physical* damage taken by 10% (15% in PvP), not Fire damage taken.
+- **Dragon Communion Seal scaling:** Clarified that its Arcane scaling does not benefit Weapon Buff or Healing incantations — only Faith scaling counts for Flame, Grant Me Strength and Golden Vow. A pure Faith seal performs equally well for this specific spell loadout.
 - **Buffed AR figure:** Softened the "900–1000+ AR" claim to avoid presenting an unverified number as guaranteed; recommend checking in-game with buffs active.
 
 ---
 
-*Build credit: UFBC community build. Guide written for educational purposes. Corrections verified against current game mechanics as of June 2026.*
+*Build credit: UFBC community build. Guide written for educational purposes. All factual claims (drop locations, scaling mechanics, talisman effects, spell requirements) re-verified against current wiki and community-tested data as of June 2026.*
