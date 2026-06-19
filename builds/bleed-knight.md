@@ -1,5 +1,4 @@
-# Define the build guide content as a markdown string
-markdown_content = """# ⚔️ Bleed Banish Knight Build
+# ⚔️ Bleed Banish Knight Build
 **🧙 Starting class:** Unknown (Video did not state)
 **🎚️ Level:** 200
 
