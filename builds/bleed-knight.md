@@ -45,4 +45,3 @@ Crimson (HP) vs Cerulean (FP).
 *   This is a quality arcane build designed to maximise AR and blood loss buildup.
 *   The setup relies on specific buff stacking: consume Sacred Bloody Flesh, then Bloodboil Aromatic, followed by Seppuku.
 *   Poise is recommended for the greatsword class.
-"""
