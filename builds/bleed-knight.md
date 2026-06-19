@@ -46,10 +46,3 @@ Crimson (HP) vs Cerulean (FP).
 *   The setup relies on specific buff stacking: consume Sacred Bloody Flesh, then Bloodboil Aromatic, followed by Seppuku.
 *   Poise is recommended for the greatsword class.
 """
-
-# Write the content to a file
-file_path = 'bleed_banish_knight_build_guide.md'
-with open(file_path, 'w') as f:
-    f.write(markdown_content)
-
-print(f"File created: {file_path}")
