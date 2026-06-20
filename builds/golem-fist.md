@@ -26,4 +26,4 @@
 - **Ash of War:** Ground Slam (Heavy Affinity)
 
 ## 🎮 Playstyle Summary
-Focus on heavy charged attacks to utilise the Golem Fist projectile property. This weapon consumes significant stamina, requiring high endurance to maintain aggression. Buff with Golden Vow and Howl of Shabriri before engaging bosses. Since the weapon lacks defensive versatility, prioritise positioning and timing to land charged attacks without depleting your entire stamina bar. Use the weapon's reach to your advantage in boss fights, but remain close enough to ensure the physical hit connects alongside the projectile.
+Focus on heavy charged attacks to utilise the Golem Fist projectile property. This weapon consumes significant stamina, requiring high endurance to maintain aggression. Buff with Golden Vow and Howl of Shabriri before engaging bosses. Since the weapon lacks defensive versatility, prioritise positioning and timing to land charged attacks without depleting your entire stamina bar. Use the weapon's reach to your advantage in boss fights, but remain close enough to ensure the physical hit connects alongside the projectile
