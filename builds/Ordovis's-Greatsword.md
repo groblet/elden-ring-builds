@@ -1,4 +1,4 @@
-markdown_content = """# ⚔️ Strength Faith Build
+# ⚔️ Strength Faith Build
 **🧙 Starting class:** Not stated
 **🎚️ Level:** 200
 
@@ -47,7 +47,3 @@ Crimson (HP) vs Cerulean (FP): Not explicitly stated (Creator uses both).
 *   **Infusions:** Weapon is standard (Unique).
 
 Verify this build against your current resources before spending larval tears or upgrade materials. 🐛
-"""
-
-with open("build_guide.md", "w") as f:
-    f.write(markdown_content)
