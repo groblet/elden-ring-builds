@@ -19,7 +19,7 @@ Not stated.
 
 ## 🗡️ Armaments
 
-* **Weapon:** Messmer Soldier's Spear (Cold Infused)
+* **Weapon:** Messmer's Soldier Axe (Cold Infused)
 * **Alternative Weapon:** Warped Axe (Cold Infused)
 * **Casting Tool:** Lusat's Glintstone Staff
 
