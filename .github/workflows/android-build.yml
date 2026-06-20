@@ -38,3 +38,16 @@ jobs:
         with:
           name: github-share-target-debug-apk
           path: android-github-share-target/app/build/outputs/apk/debug/app-debug.apk
+
+      # Manual runs also commit the APK into the repo, since the upload-artifact
+      # storage backend isn't reachable from every client that needs the file.
+      - name: Commit APK to branch (manual runs only)
+        if: github.event_name == 'workflow_dispatch'
+        run: |
+          mkdir -p dist
+          cp app/build/outputs/apk/debug/app-debug.apk dist/app-debug.apk
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add dist/app-debug.apk
+          git commit -m "Add built debug APK [skip ci]" || echo "nothing to commit"
+          git push
