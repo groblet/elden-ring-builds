@@ -46,7 +46,7 @@
             android:background="@drawable/bg_retro_button_cyan"
             android:fontFamily="monospace"
             android:text="GEMINI"
-            android:textColor="@color/retro_cyan"
+            android:textColor="@color/retro_button_text"
             android:textStyle="bold" />
 
         <Button
@@ -57,7 +57,7 @@
             android:background="@drawable/bg_retro_button_pink"
             android:fontFamily="monospace"
             android:text="CLAUDE"
-            android:textColor="@color/retro_pink"
+            android:textColor="@color/retro_button_text"
             android:textStyle="bold" />
 
     </LinearLayout>

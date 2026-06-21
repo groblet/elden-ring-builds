@@ -7,4 +7,6 @@
     <color name="retro_yellow">#FFE94D</color>
     <color name="retro_purple">#7B2FF7</color>
     <color name="retro_text">#F4E9FF</color>
+    <color name="retro_button_text">#1A0B2E</color>
+
 </resources>
