@@ -1,5 +1,7 @@
 ## ⚔️ Build: Bastard Stars One Shot Combo
 
+https://youtu.be/0zB9PPlbArg?is=FL-TY9BEIUFYbkXe
+
 ## 📊 Attributes
 - Vigor: 58
 - Mind: 28
