@@ -1,9 +1,9 @@
 # YT Summary Bot (Android)
 
 A minimal Android app that registers as a system share target for
-`text/plain` content. Share a YouTube link to it and it summarizes the
-video with Gemini, then copies the Markdown summary straight to your
-clipboard — no extra taps needed once your API key is saved.
+`text/plain` content. Share a YouTube link to it and it hands the link
+straight to the Gemini app with a summary prompt — no API key, no API
+quota, just your existing Gemini account.
 
 ## Project layout
 
@@ -11,12 +11,7 @@ clipboard — no extra taps needed once your API key is saved.
 app/src/main/
   AndroidManifest.xml                 -- ACTION_SEND intent-filter
   java/com/example/ytsummary/
-    ui/MainActivity.kt                -- handles the share intent, settings UI, clipboard copy
-    api/GeminiApi.kt                  -- Retrofit interface (generateContent endpoint)
-    api/GeminiClient.kt               -- Retrofit/OkHttp singleton
-    data/GeminiRepository.kt          -- builds the request, coroutine call, error mapping
-    data/SecurePrefsManager.kt        -- EncryptedSharedPreferences wrapper for the API key
-    model/GeminiModels.kt             -- request/response DTOs
+    ui/MainActivity.kt                -- handles the share intent, forwards to Gemini
   res/layout/activity_main.xml
 ```
 
@@ -26,83 +21,30 @@ app/src/main/
    `android.intent.action.SEND` with `android:mimeType="text/plain"`, so the
    app appears in the system Share sheet (e.g. when sharing a video from the
    YouTube app).
-2. `MainActivity` pulls the URL out of the shared text with a regex and, if a
-   Gemini API key is already saved, immediately calls Gemini — no further
-   user interaction required.
-3. On success, the Markdown summary is copied to the clipboard via
-   `ClipboardManager` and the activity finishes; paste it anywhere.
+2. `MainActivity` pulls the URL out of the shared text with a regex, prepends
+   a summary instruction ("Watch this YouTube video and write a concise
+   summary of it formatted as Markdown, with a short title, then key points
+   as bullet lists: "), and launches an `ACTION_SEND` intent targeted at the
+   Gemini app (package `com.google.android.apps.bard`) with that text as
+   `EXTRA_TEXT`.
+3. Gemini opens with the prompt pre-filled and watches/summarizes the video
+   using the user's own Gemini account — no Gemini API key or quota involved.
+   The activity finishes immediately after handing off.
 
-## Networking
+This avoids the Gemini *API*, which on the free tier has a `0` quota for
+models like `gemini-2.5-pro` and otherwise requires billing — calling the
+Gemini app directly uses whatever plan (e.g. Gemini Pro/Advanced) the user is
+already signed into.
 
-Gemini supports watching a YouTube video directly: the request passes the
-video URL as a `fileData.fileUri` part alongside a text prompt, so there's no
-separate transcript-fetching step.
+### Caveat
 
-```
-POST /v1beta/models/{model}:generateContent?key=<API_KEY>
-{
-  "contents": [{
-    "parts": [
-      { "fileData": { "fileUri": "<youtube-url>" } },
-      { "text": "Watch this YouTube video and write a concise summary..." }
-    ]
-  }]
-}
-```
-
-`GeminiRepository.summarizeYoutubeVideo()`:
-- Runs the whole call inside `withContext(Dispatchers.IO)` so it never blocks
-  the main thread, called from a `lifecycleScope.launch { }` coroutine in the
-  Activity.
-- Extracts the summary text from
-  `candidates?.firstOrNull()?.content?.parts?.firstOrNull()?.text`.
-
-### Error handling
-
-- **Network failures** (`IOException` — no connectivity, DNS, timeout) are
-  caught and surfaced as `SummaryResult.Failure("Network error: ...")`.
-- **HTTP-level failures** (`response.isSuccessful == false`) are not
-  exceptions in Retrofit/coroutines — they come back as a normal `Response`,
-  so the code parses Gemini's JSON error body (`{"error": {"message": ...}}`)
-  to give a specific reason (e.g. invalid API key, quota exceeded).
-- **Anything else** (unexpected JSON shape, empty summary) is caught by a
-  generic `catch (e: Exception)` so the coroutine never crashes the app.
-- The result is a sealed class (`SummaryResult.Success` / `SummaryResult.Failure`)
-  rather than thrown exceptions, so the Activity only has to do an exhaustive
-  `when` to render the outcome — no `try/catch` needed in the UI layer.
-
-## Storing the Gemini API key securely
-
-Never store the API key in plain `SharedPreferences` — anyone with a rooted
-device (or `adb backup` on a debuggable build) can read those values in
-clear text. Instead `SecurePrefsManager` uses
-[`androidx.security.crypto.EncryptedSharedPreferences`]:
-
-```kotlin
-val masterKey = MasterKey.Builder(context)
-    .setKeyScheme(MasterKey.KeyScheme.AES256_GCM)
-    .build()
-
-val prefs = EncryptedSharedPreferences.create(
-    context,
-    "ytsummary_secure_prefs",
-    masterKey,
-    EncryptedSharedPreferences.PrefKeyEncryptionScheme.AES256_SIV,
-    EncryptedSharedPreferences.PrefValueEncryptionScheme.AES256_GCM
-)
-```
-
-- The `MasterKey` is generated and held inside the **Android Keystore**, so
-  the AES key used to encrypt preference values never exists in app-readable
-  memory or on disk in extractable form.
-- Both preference **keys and values** are encrypted (`AES256_SIV` for keys,
-  `AES256_GCM` for values), which also prevents an attacker from learning
-  which preference keys exist by inspecting the file.
-- Add the dependency: `androidx.security:security-crypto:1.1.0-alpha06`.
+Gemini's share-intent handler pre-fills the prompt text but may still require
+one tap on its own "send" button to actually submit it — Android apps can't
+auto-submit input inside another app's UI. This is still a single extra tap
+versus typing/pasting the prompt and link manually.
 
 ## Usage
 
-1. Open the app, paste your Gemini API key, tap "Save API Key".
+1. Make sure the Gemini app is installed and signed in.
 2. From YouTube (or any app), share a video link to "YT Summary Bot".
-3. Wait a moment — the Markdown summary lands on your clipboard
-   automatically. Paste it wherever you like.
+3. The Gemini app opens with the video link and summary prompt ready to send.
