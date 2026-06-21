@@ -15,7 +15,23 @@ android {
         versionName = "1.0"
     }
 
+    signingConfigs {
+        // Checked-in debug keystore so every CI build is signed with the same
+        // certificate. Without this, Gradle generates a fresh random debug
+        // keystore per machine/run, and Android refuses to install an APK
+        // over an existing install signed with a different certificate.
+        getByName("debug") {
+            storeFile = file("../debug.keystore")
+            storePassword = "android"
+            keyAlias = "androiddebugkey"
+            keyPassword = "android"
+        }
+    }
+
     buildTypes {
+        debug {
+            signingConfig = signingConfigs.getByName("debug")
+        }
         release {
             isMinifyEnabled = false
         }
