@@ -12,6 +12,10 @@ private val URL_REGEX = Regex("""https?://\S+""")
 private const val GEMINI_PACKAGE = "com.google.android.apps.bard"
 
 private const val PROMPT_PREFIX = "Look at this link. " +
+    "Write the entire response in GitHub-flavored Markdown (the syntax GitHub renders in " +
+    "issues, PRs, and README files): use '#'-style headers, '-' bullet lists, '**bold**', " +
+    "and standard GFM tables if needed, with no LaTeX, no HTML tags, and no code fences " +
+    "unless quoting actual code. " +
     "If it's an Elden Ring build video, write a build guide formatted as Markdown, using " +
     "relevant emojis in section headers and bullet points, with these sections (skip any " +
     "section the video has no info for): " +
