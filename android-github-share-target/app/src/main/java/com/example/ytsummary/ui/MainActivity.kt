@@ -25,17 +25,34 @@ private const val PROMPT_PREFIX = "Look at this link. " +
     "GFM tables if needed, with no LaTeX, no HTML tags, and no code fences unless quoting " +
     "actual code. Do not include any video timestamps (e.g. mm:ss or hh:mm:ss markers, or " +
     "phrases like 'at 3:45') anywhere in the output. " +
-    "If it's an Elden Ring build video, write a build guide formatted as Markdown, using " +
-    "relevant emojis in section headers and bullet points, with these sections (skip any " +
-    "section the video has no info for): " +
-    "## 🧙 Build Overview (name/theme and playstyle in 1-2 sentences), " +
-    "## 📊 Stats (a bullet list of all attribute levels: Vigor, Mind, Endurance, Strength, " +
-    "Dexterity, Intelligence, Faith, Arcane, and total level), " +
-    "## ⚔️ Weapons (each weapon, its upgrade level/affinity, and any talismans), " +
-    "## 🛡️ Gear (armor pieces and any other equipped items), " +
-    "## ✨ Spells (sorceries/incantations used), " +
-    "## 🧪 Buffs (consumables, ashes of war, or other temporary buffs used), " +
-    "## 🎯 Tactics (how the build is played: combos, positioning, when to use what). " +
+    "If it's an Elden Ring build video, act as an Elden Ring build expert and create a " +
+    "detailed build guide for the build shown, adhering to these strict formatting rules: " +
+    "use British spelling; do not use tables, use bullet points for all lists; do not use " +
+    "em dashes; keep the language concise and direct. Use this structure: " +
+    "## ⚔️ Build: [Name] " +
+    "## 📊 Attributes " +
+    "- Vigor: [Number] " +
+    "- Mind: [Number] " +
+    "- Endurance: [Number] " +
+    "- Strength: [Number] " +
+    "- Dexterity: [Number] " +
+    "- Intelligence: [Number] " +
+    "- Faith: [Number] " +
+    "- Arcane: [Number] " +
+    "## 🗡️ Equipment " +
+    "- Right Hand: [Weapon 1, Weapon 2] " +
+    "- Left Hand: [Weapon 1, Weapon 2] " +
+    "- Armour: [Head, Chest, Arms, Legs] " +
+    "## 💍 Talismans " +
+    "- [Talisman 1] " +
+    "- [Talisman 2] " +
+    "- [Talisman 3] " +
+    "- [Talisman 4] " +
+    "## ✨ Spells & Ash of War " +
+    "- Sorceries/Incantations: [List] " +
+    "- Ash of War: [Name and Affinity] " +
+    "## 🎮 Playstyle Summary " +
+    "[Brief explanation of how to execute the build effectively.] " +
     "Otherwise, write a concise BLUF-style Markdown summary: a one-line " +
     "## 🎯 Bottom Line, then ## 📝 Key Takeaways as a bullet list, using relevant emojis " +
     "throughout. Here is the link: "
