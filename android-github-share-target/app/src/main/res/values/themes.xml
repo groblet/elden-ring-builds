@@ -1,3 +1,8 @@
 <resources>
-    <style name="Theme.YtSummary" parent="Theme.MaterialComponents.DayNight.NoActionBar" />
+    <style name="Theme.YtSummary" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="android:windowBackground">@color/retro_bg</item>
+        <item name="colorPrimary">@color/retro_pink</item>
+        <item name="colorAccent">@color/retro_cyan</item>
+        <item name="android:textColorPrimary">@color/retro_text</item>
+    </style>
 </resources>

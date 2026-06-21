@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="retro_bg">#1A0B2E</color>
+    <color name="retro_bg_panel">#2B1455</color>
+    <color name="retro_pink">#FF2EC4</color>
+    <color name="retro_cyan">#2EF6FF</color>
+    <color name="retro_yellow">#FFE94D</color>
+    <color name="retro_purple">#7B2FF7</color>
+    <color name="retro_text">#F4E9FF</color>
+</resources>

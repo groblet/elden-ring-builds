@@ -2,21 +2,38 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bg_retro_screen"
     android:orientation="vertical"
-    android:padding="16dp">
+    android:padding="20dp">
 
     <TextView
         android:id="@+id/textStatus"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:textColor="@color/retro_cyan"
         android:textIsSelectable="true"
+        android:textSize="18sp"
         android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/checkboxRequireMd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:buttonTint="@color/retro_yellow"
+        android:checked="true"
+        android:fontFamily="monospace"
+        android:text="REQUIRE .MD FILE OUTPUT"
+        android:textColor="@color/retro_yellow"
+        android:visibility="gone" />
 
     <LinearLayout
         android:id="@+id/layoutChooser"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
         android:orientation="horizontal"
         android:visibility="gone">
 
@@ -24,16 +41,24 @@
             android:id="@+id/buttonGemini"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
             android:layout_marginEnd="8dp"
-            android:text="Send to Gemini" />
+            android:layout_weight="1"
+            android:background="@drawable/bg_retro_button_cyan"
+            android:fontFamily="monospace"
+            android:text="GEMINI"
+            android:textColor="@color/retro_cyan"
+            android:textStyle="bold" />
 
         <Button
             android:id="@+id/buttonClaude"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Send to Claude" />
+            android:background="@drawable/bg_retro_button_pink"
+            android:fontFamily="monospace"
+            android:text="CLAUDE"
+            android:textColor="@color/retro_pink"
+            android:textStyle="bold" />
 
     </LinearLayout>
 

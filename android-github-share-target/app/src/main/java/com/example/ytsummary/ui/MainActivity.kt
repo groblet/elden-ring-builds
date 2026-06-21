@@ -5,6 +5,7 @@ import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import android.widget.Button
+import android.widget.CheckBox
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import com.example.ytsummary.R
@@ -14,10 +15,12 @@ private val URL_REGEX = Regex("""https?://\S+""")
 private const val GEMINI_PACKAGE = "com.google.android.apps.bard"
 private const val CLAUDE_PACKAGE = "com.anthropic.claude"
 
+private const val MD_FILE_INSTRUCTION = "The output must be a complete Markdown (.md) file: " +
+    "the entire response should be valid Markdown source, with nothing before or after it, " +
+    "suitable for saving directly as a .md file. "
+
 private const val PROMPT_PREFIX = "Look at this link. " +
-    "The output must be a complete Markdown (.md) file: the entire response should be valid " +
-    "Markdown source, with nothing before or after it, suitable for saving directly as a .md " +
-    "file. Write it in GitHub-flavored Markdown (the syntax GitHub renders in issues, PRs, " +
+    "Write it in GitHub-flavored Markdown (the syntax GitHub renders in issues, PRs, " +
     "and README files): use '#'-style headers, '-' bullet lists, '**bold**', and standard " +
     "GFM tables if needed, with no LaTeX, no HTML tags, and no code fences unless quoting " +
     "actual code. Do not include any video timestamps (e.g. mm:ss or hh:mm:ss markers, or " +
@@ -48,6 +51,7 @@ private const val PROMPT_PREFIX = "Look at this link. " +
 class MainActivity : AppCompatActivity() {
 
     private lateinit var textStatus: TextView
+    private lateinit var checkboxRequireMd: CheckBox
     private lateinit var layoutChooser: View
     private lateinit var buttonGemini: Button
     private lateinit var buttonClaude: Button
@@ -59,6 +63,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         textStatus = findViewById(R.id.textStatus)
+        checkboxRequireMd = findViewById(R.id.checkboxRequireMd)
         layoutChooser = findViewById(R.id.layoutChooser)
         buttonGemini = findViewById(R.id.buttonGemini)
         buttonClaude = findViewById(R.id.buttonClaude)
@@ -71,7 +76,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun handleIncomingShareIntent(intent: Intent?) {
         if (intent?.action != Intent.ACTION_SEND || intent.type != "text/plain") {
-            textStatus.text = "Share a link to this app to summarize it with Gemini or Claude."
+            textStatus.text = "SHARE A LINK TO SUMMARIZE\nWITH GEMINI OR CLAUDE"
             return
         }
 
@@ -79,28 +84,31 @@ class MainActivity : AppCompatActivity() {
         val url = sharedText?.let { URL_REGEX.find(it)?.value }
 
         if (url == null) {
-            textStatus.text = "No link found in the shared text."
+            textStatus.text = "NO LINK FOUND IN SHARED TEXT"
             return
         }
 
         pendingUrl = url
-        textStatus.text = "Summarize $url with:"
+        textStatus.text = "SUMMARIZE:\n$url"
+        checkboxRequireMd.visibility = View.VISIBLE
         layoutChooser.visibility = View.VISIBLE
     }
 
     private fun sendToApp(url: String, packageName: String, label: String) {
+        val prompt = if (checkboxRequireMd.isChecked) MD_FILE_INSTRUCTION + PROMPT_PREFIX else PROMPT_PREFIX
+
         val targetIntent = Intent(Intent.ACTION_SEND).apply {
             type = "text/plain"
-            putExtra(Intent.EXTRA_TEXT, PROMPT_PREFIX + url)
+            putExtra(Intent.EXTRA_TEXT, prompt + url)
             setPackage(packageName)
         }
 
         try {
             startActivity(targetIntent)
-            textStatus.text = "Sent to $label: $url"
+            textStatus.text = "SENT TO ${label.uppercase()}:\n$url"
             finish()
         } catch (e: ActivityNotFoundException) {
-            textStatus.text = "$label app isn't installed. Install it from the Play Store, then share the link again."
+            textStatus.text = "$label APP ISN'T INSTALLED.\nINSTALL IT, THEN SHARE AGAIN."
         }
     }
 }
