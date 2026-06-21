@@ -1,29 +1,27 @@
 🧙 Build Overview
-This Strength and Arcane build focuses on using poison and blood loss mechanics to heavily increase the physical damage of a colossal greatsword. The playstyle is results-driven, prioritising high-damage hyper armour trades and reliable roll-catch combos during invasions.
-📊 Stats
-The spoken commentary highlights a heavy investment in the following attributes, with the exact numerical breakdown displayed visually on screen at the end of the video:
-📊 Strength: Levelled as a primary stat to scale physical weapon damage.
-📊 Arcane: Levelled heavily to significantly increase the blood loss buildup of the weapon.
-📊 Other Attributes: Vigor, Mind, Endurance, Dexterity, Intelligence, Faith, and total level are present on the visual stat screen but are not explicitly itemised in the spoken dialogue.
-⚔️ Weapons
-⚔️ Blood Greatsword +25: The primary weapon, infused with the Blood affinity to provide massive blood loss buildup, paired with the Poisonous Mist Ash of War.
-⚔️ Poisoned Hand +10: Equipped in the left hand to grant a passive attack power buff whenever poison occurs nearby.
-⚔️ Kindred of Rot's Exaltation: A core talisman that raises attack power by 20% when poison is triggered in the vicinity.
-⚔️ Two-Handed Sword Talisman: Provides a flat 10% damage increase when two-handing the colossal sword.
-⚔️ Shard of Alexander: Greatly boosts the skill damage of the Poisonous Mist Ash of War.
-⚔️ Great-Jar's Arsenal: Maximises maximum equip load to handle this heavy weapon and armour configuration.
-⚔️ Crimson Seed Talisman: Kept as a situational swap to improve health recovery when healing.
-🛡️ Gear
-🛡️ Mushroom Crown: The essential headpiece that increases attack power when poison or rot is triggered nearby.
-🛡️ Armour of Solitude Set: Utilised for high poise and physical defence to withstand trades, though the video notes the remaining armour slots are customisable.
-🧪 Buffs
-🧪 Bloodboil Aromatic: A consumable that severely boosts physical attack power at the cost of reduced defensive absorption.
-🧪 Deadly Poison Spray: An Ash of War used specifically to self-poison, instantly activating the Mushroom Crown, Poisoned Hand, and Kindred of Rot's Exaltation buffs.
-🧪 Poisonous Mist: An Ash of War that applies a poison coating to the Greatsword while creating a hazardous cloud.
-🧪 Uplifting Aromatic: Deployed contextually to gain a protective bubble shield while applying other setup buffs.
-🧪 Boiled Crab: Used to bolster physical damage negation before engaging targets.
-🎯 Tactics
-🎯 The Roll-Catch Combo: Initiate with a Greatsword crouch poke to stagger the target. Opponents typically panic roll immediately, allowing a perfectly timed Poisonous Mist follow-up to roll-catch and inflict massive damage.
-🎯 Self-Poisoning Setup: Consume the Bloodboil Aromatic and use Deadly Poison Spray to trigger self-poison before the fight begins, raising the base attack rating up to 1492.
-🎯 Crowd Control: Swap contextually to Storm Stomp followed by a heavy R2 sweeping attack to catch aggressive groups or multiple opponents simultaneously.
-🎯 Hyper Armour Trading: Leverage the high poise of the build to attack through incoming enemy tracking, allowing the heavy weapon to bleed targets out in two hits. YouTube video views will be stored in your YouTube History, and your data will be stored and used by YouTube according to its Terms of Service
+​🐍 This is a Strength and Arcane build centred around using a colossal Greatsword paired with poison mechanics to dramatically boost physical attack power.
+​⚔️ The playstyle focuses on massive damage output, heavy blood loss accumulation, and aggressive roll-catching during PvP invasions.
+​⚔️ Weapons
+​🗡️ Greatsword: The primary weapon used two-handed, equipped with the Poison Mist Ash of War. It provides immense physical damage and high blood loss build-up.
+​🤚 Poisoned Hand: Kept in the setup to trigger a passive damage increase whenever poison is present in the area.
+​💍 Kindred of Rot's Exaltation: A talisman that grants a significant attack power boost when poisoning occurs nearby.
+​💍 Shard of Alexander: A talisman used to increase the skill damage of the Poison Mist Ash of War.
+​💍 Two-Handed Sword Talisman: A talisman providing a 10% damage bonus for two-handing the weapon.
+​💍 Great-Jar's Arsenal: A talisman required to vastly increase equip load to carry this heavy setup.
+​💍 Crimson Seed Talisman: Swapped in contextually to boost health recovery from healing flasks.
+​🛡️ Gear
+​🍄 Mushroom Crown: The essential headpiece that increases damage output whenever poison is triggered in the vicinity.
+​🛡️ Other Armour Pieces: The remaining armour slots are flexible and can be chosen based on personal preference for poise and defense.
+​🧪 Buffs
+​🧪 Blood Boil Aromatic: A consumable that severely buffs physical damage at the cost of lower overall defenses.
+​💨 Poison Mist: An Ash of War that coats the weapon in poison and creates a toxic cloud to trigger damage buffs.
+​💦 Deadly Poison Spray: An Ash of War used on a secondary tool to easily self-poison and activate all poison-related damage triggers instantly.
+​🛡️ Uplifting Aromatic: Used occasionally to provide a protective shield during buff routines.
+​🦀 Boiled Crab: A consumable used to mitigate physical damage.
+​🎯 Tactics
+​🔄 The Roll-Catch Combo: Land a crouch-poke with the Greatsword, then follow up immediately with the Poison Mist Ash of War. This lines up perfectly to roll-catch opponents who panic-roll after getting hit by the colossal sword.
+​📈 Maximising Damage: Consume the Blood Boil Aromatic first to raise baseline attack power. Follow up by self-poisoning or poisoning an opponent to activate the stacked multipliers of the Mushroom Crown, Kindred of Rot's Exaltation, and Poisoned Hand.
+​👥 Crowd Control: Utilise the wide, sweeping pattern of the Greatsword's R2 heavy attacks to manage multiple opponents simultaneously and hit targets trying to position around you.
+​🛡️ Trading Attacks: Rely on the high hyper-armour of the colossal weapon to trade hits with opponents. When fully buffed, the damage output is high enough to easily win trades or delete enemy players outright.
+
+​YouTube video views will be stored in your YouTube History, and your data will be stored and used by YouTube according to its Terms of Service
