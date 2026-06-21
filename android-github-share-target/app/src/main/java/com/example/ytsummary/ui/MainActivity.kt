@@ -15,7 +15,8 @@ private const val PROMPT_PREFIX = "Look at this link. " +
     "Write the entire response in GitHub-flavored Markdown (the syntax GitHub renders in " +
     "issues, PRs, and README files): use '#'-style headers, '-' bullet lists, '**bold**', " +
     "and standard GFM tables if needed, with no LaTeX, no HTML tags, and no code fences " +
-    "unless quoting actual code. " +
+    "unless quoting actual code. Do not include any video timestamps (e.g. mm:ss or hh:mm:ss " +
+    "markers, or phrases like 'at 3:45') anywhere in the output. " +
     "If it's an Elden Ring build video, write a build guide formatted as Markdown, using " +
     "relevant emojis in section headers and bullet points, with these sections (skip any " +
     "section the video has no info for): " +
