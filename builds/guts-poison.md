@@ -26,4 +26,4 @@ The spoken commentary highlights a heavy investment in the following attributes,
 🎯 The Roll-Catch Combo: Initiate with a Greatsword crouch poke to stagger the target. Opponents typically panic roll immediately, allowing a perfectly timed Poisonous Mist follow-up to roll-catch and inflict massive damage.
 🎯 Self-Poisoning Setup: Consume the Bloodboil Aromatic and use Deadly Poison Spray to trigger self-poison before the fight begins, raising the base attack rating up to 1492.
 🎯 Crowd Control: Swap contextually to Storm Stomp followed by a heavy R2 sweeping attack to catch aggressive groups or multiple opponents simultaneously.
-🎯 Hyper Armour Trading: Leverage the high poise of the build to attack through incoming enemy tracking, allowing the heavy weapon to bleed targets out in two hits.
+🎯 Hyper Armour Trading: Leverage the high poise of the build to attack through incoming enemy tracking, allowing the heavy weapon to bleed targets out in two hits. YouTube video views will be stored in your YouTube History, and your data will be stored and used by YouTube according to its Terms of Service
