@@ -1,4 +1,4 @@
-package com.example.githubshare.api
+package com.example.ytsummary.api
 
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
@@ -6,20 +6,20 @@ import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 import java.util.concurrent.TimeUnit
 
-object RetrofitClient {
+object GeminiClient {
 
-    private const val BASE_URL = "https://api.github.com/"
+    private const val BASE_URL = "https://generativelanguage.googleapis.com/"
 
-    val api: GitHubApi by lazy {
+    val api: GeminiApi by lazy {
         val logging = HttpLoggingInterceptor().apply {
-            // BASIC avoids logging the Authorization header / request body (which contains the token/content)
+            // BASIC avoids logging the request body, which contains the API key's adjacent prompt content
             level = HttpLoggingInterceptor.Level.BASIC
         }
 
         val httpClient = OkHttpClient.Builder()
             .addInterceptor(logging)
-            .connectTimeout(15, TimeUnit.SECONDS)
-            .readTimeout(15, TimeUnit.SECONDS)
+            .connectTimeout(20, TimeUnit.SECONDS)
+            .readTimeout(60, TimeUnit.SECONDS) // video understanding can take a while
             .build()
 
         Retrofit.Builder()
@@ -27,6 +27,6 @@ object RetrofitClient {
             .client(httpClient)
             .addConverterFactory(GsonConverterFactory.create())
             .build()
-            .create(GitHubApi::class.java)
+            .create(GeminiApi::class.java)
     }
 }

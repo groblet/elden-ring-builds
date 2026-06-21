@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.githubshare"
+    namespace = "com.example.ytsummary"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.githubshare"
+        applicationId = "com.example.ytsummary"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
@@ -45,6 +45,6 @@ dependencies {
     // Coroutines
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.8.1")
 
-    // Encrypted storage for the Personal Access Token
+    // Encrypted storage for the Gemini API key
     implementation("androidx.security:security-crypto:1.1.0-alpha06")
 }

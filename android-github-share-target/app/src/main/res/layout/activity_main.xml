@@ -10,70 +10,31 @@
         android:orientation="vertical"
         android:padding="16dp">
 
-        <com.google.android.material.textfield.TextInputLayout
+        <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="GitHub Username">
-            <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/editUsername"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
-        </com.google.android.material.textfield.TextInputLayout>
+            android:text="Share a YouTube video to this app to copy a Markdown summary to your clipboard."
+            android:textStyle="bold" />
 
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
-            android:hint="Repository Name">
-            <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/editRepo"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
-        </com.google.android.material.textfield.TextInputLayout>
-
-        <com.google.android.material.textfield.TextInputLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
-            android:hint="File Path (e.g. notes/shared.md)">
-            <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/editFilePath"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
-        </com.google.android.material.textfield.TextInputLayout>
-
-        <com.google.android.material.textfield.TextInputLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
-            android:hint="Personal Access Token"
+            android:layout_marginTop="16dp"
+            android:hint="Gemini API Key"
             app:passwordToggleEnabled="true">
             <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/editToken"
+                android:id="@+id/editApiKey"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="textPassword" />
         </com.google.android.material.textfield.TextInputLayout>
 
-        <com.google.android.material.textfield.TextInputLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
-            android:hint="Shared Text">
-            <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/editSharedText"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:minLines="4"
-                android:gravity="top" />
-        </com.google.android.material.textfield.TextInputLayout>
-
         <Button
-            android:id="@+id/buttonPush"
+            android:id="@+id/buttonSave"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            android:text="Push to GitHub" />
+            android:text="Save API Key" />
 
         <ProgressBar
             android:id="@+id/progressBar"
