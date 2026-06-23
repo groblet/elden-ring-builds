@@ -1,28 +1,5 @@
 # ⚔️ Elden Ring Companion Tool
 
-An interactive web-based companion for Elden Ring featuring a rune calculator, farm route guide, and quick access to community resources.
-
-**Theme**: Shadow of the Erdtree Optimized  
-**Styling**: Dark fantasy aesthetic with gold accents (Cinzel typography)
-
----
-
-## 🎮 Features
-
-### 📊 Rune Calculator
-Calculate the total runes required to level from your current level to a target level.
-
-- **Current Level**: Input your present character level (1-712)
-- **Target Level**: Set your desired leveling goal (2-713)
-- **Real-Time Calculation**: Instant rune requirement computation
-- **Level Breakdown**: Shows total runes needed and average per level
-
-**Formula Used**: Implements authentic Elden Ring leveling curve
-- Levels 1-11: Hardcoded specific values
-- Level 12+: `0.02L³ + 3.06L² + 105.6L - 895` (where L = level + 81)
-
-
-
 ### 🔗 Community Resources
 
 #### Official Tools & Databases
