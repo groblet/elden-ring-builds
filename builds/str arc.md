@@ -1,6 +1,7 @@
 # ⚔️ Build: Strength Arcane PvP Optimization
 
-## https://youtu.be/Wdsw_Ts2o4g?is=j4kDSe3AphC-cd-G
+Ancient Meteoric Ore Greatsword, Bloodfiend's Sacred Spear, Mohgwyn's Sacred Spear, Greatsword, Lance, Star Fist, Cleanrot Sword, Halberds, Scythes, Sword Lance, Rivers of Blood, Eleonora's Poleblade, Obsidian Lamina, War's Curved Greatsword, Light Greatsword, Nagakiba, Reduvia
+ https://youtu.be/Wdsw_Ts2o4g?is=j4kDSe3AphC-cd-G
 
 This guide outlines the most effective Strength Arcane hybrid build for level 150 PvP.
 
