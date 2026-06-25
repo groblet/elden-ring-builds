@@ -1,5 +1,7 @@
 # ⚔️ Build: Strength Arcane PvP Optimization
 
+## https://youtu.be/Wdsw_Ts2o4g?is=j4kDSe3AphC-cd-G
+
 This guide outlines the most effective Strength Arcane hybrid build for level 150 PvP.
 
 ## 📊 Attributes
