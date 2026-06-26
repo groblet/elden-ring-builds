@@ -1,6 +1,105 @@
 # ⚔️ Build: Strength Arcane PvP Optimization
 
-Ancient Meteoric Ore Greatsword, Bloodfiend's Sacred Spear, Mohgwyn's Sacred Spear, Greatsword, Lance, Star Fist, Cleanrot Sword, Halberds, Scythes, Sword Lance, Rivers of Blood, Eleonora's Poleblade, Obsidian Lamina, War's Curved Greatsword, Light Greatsword, Nagakiba, Reduvia
+Here’s an **efficient progression route (base game → DLC)** that minimises backtracking and groups pickups by region and access timing.
+
+---
+
+# 🧭 Elden Ring Weapon Collection Route (Optimised Order)
+
+## 🟩 1. Limgrave (Start Area – earliest pickups)
+
+* **Reduvia** → Murkwater Canyon (invader: Bloody Finger Nerijus)
+* **Lance** → Nomadic Merchant / early world pickup (Weeping Peninsula route)
+* **Nagakiba** → Yura questline (can start immediately; finishes later)
+
+👉 Goal here: grab early bleed + reach questlines that continue later naturally.
+
+---
+
+## 🟨 2. Weeping Peninsula (optional early detour)
+
+* Clean up **Lance if not already taken**
+* Progress **Yura encounter chain (Nagakiba continuation)**
+
+---
+
+## 🟦 3. Liurnia of the Lakes (mid early-game power spike)
+
+* **Halberds (various farm drops)** → Soldiers / Knights in Liurnia forts
+* **Scythes**
+
+  * Grave Scythe → Cemetery / skeleton farm areas
+  * Halo Scythe (if desired) → Cleanrot Knights (Aeonia route prep)
+
+👉 This is your “farm zone” for weapon variety.
+
+---
+
+## 🟥 4. Caelid (high-risk, high-reward region)
+
+* **Greatsword** → Dragonbarrow carriage (north Caelid road)
+* **Cleanrot Sword** → Cleanrot Knights (Aeonia Swamp farming)
+* **Star Fist (prep access route)** → later Leyndell unlock required, but routing begins here
+
+---
+
+## 🟪 5. Altus Plateau (quest progression unlocks)
+
+* **Eleonora’s Poleblade** → Second Church of Marika (invasion trigger)
+
+👉 Important breakpoint: this unlocks multiple late-game questlines.
+
+---
+
+## 🟧 6. Leyndell, Royal Capital
+
+* **Star Fist** → Leyndell Colosseum area / capital outskirts enemies
+
+---
+
+## 🟥 7. Mountaintops of the Giants (late base game)
+
+* **Rivers of Blood** → Church of Repose (invasion: Bloody Finger Okina)
+
+---
+
+## ⚫ 8. Mohgwyn Palace (endgame base game weapon)
+
+* **Mohgwyn’s Sacred Spear** → Defeat Mohg, Lord of Blood
+
+---
+
+# 🌑 DLC ROUTE (Shadow of the Erdtree – post-Mohg progression)
+
+Access assumed via Mohg + Radahn route.
+
+## 🟤 9. Gravesite Plain (entry zone DLC)
+
+* Start exploration here first (low resistance, unlock gear paths)
+
+## 🟠 10. Early DLC Weapon Cluster
+
+* **Ancient Meteoric Ore Greatsword**
+* **Light Greatsword category weapons**
+
+## 🟡 11. Mid DLC Zones (Shadow Keep / surrounding regions)
+
+* **Sword Lance**
+* **Bloodfiend’s Sacred Spear** (Bloodfiend enemy zones)
+
+## 🔴 12. Late DLC Regions
+
+* **Obsidian Lamina**
+* **War’s Curved Greatsword**
+
+---
+
+# ⚡ Optimised Summary Flow
+
+Limgrave → Weeping Peninsula → Liurnia → Caelid → Altus → Leyndell → Mountaintops → Mohgwyn Palace → DLC entry → DLC mid → DLC end
+
+---
+
  https://youtu.be/Wdsw_Ts2o4g?is=j4kDSe3AphC-cd-G
 
 This guide outlines the most effective Strength Arcane hybrid build for level 150 PvP.
