@@ -9,7 +9,7 @@ Here’s an **efficient progression route (base game → DLC)** that minimises b
 ## 🟩 1. Limgrave (Start Area – earliest pickups)
 
 * **Reduvia** → Murkwater Canyon (invader: Bloody Finger Nerijus)
-* **Lance** → Nomadic Merchant / early world pickup (Weeping Peninsula route)
+* **Lance** → Early world pickup (Weeping Peninsula route)
 * **Nagakiba** → Yura questline (can start immediately; finishes later)
 
 👉 Goal here: grab early bleed + reach questlines that continue later naturally.
