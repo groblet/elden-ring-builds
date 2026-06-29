@@ -20,6 +20,7 @@ https://youtu.be/IGXf0fHeI8E?si=1qdPVVsq8Fi2QJdt
 
 ## 🗡️ Armaments
 * **Dragon Communion Seal +10** (Dual-wielded in New Game Plus for a stacking 15% damage bonus per seal to Dragon Communion incantations).
+* **Highland Axe w/ Poison** increases the damage of Roars by 10%.
 
 ## 🛡️ Armour
 * **No Armour:** You must wear completely empty armour slots to use the Rock Heart transformation item.
