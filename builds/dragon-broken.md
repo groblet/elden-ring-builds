@@ -1,5 +1,6 @@
 # ⚔️ Broken Dragon Communion Build
 **🎚️ Level:** 204
+https://youtu.be/IGXf0fHeI8E?si=1qdPVVsq8Fi2QJdt
 
 ## 📊 Attributes
 
