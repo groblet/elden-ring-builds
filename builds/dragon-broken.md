@@ -28,6 +28,7 @@ https://youtu.be/IGXf0fHeI8E?si=1qdPVVsq8Fi2QJdt
 * **Blue Dancer Charm:** Provides a 15% damage bonus to all physical damage (including Dragonmaw, Dragonclaw, Greyoll's Roar, rot breaths, and a 6% bonus to Bayle's Flame Lightning) because you are at the lowest equipment load.
 * **Flock's Canvas Talisman:** Enhances all incantation damage regardless of the element.
 * **Faithful's Canvas Talisman:** Enhances all incantation damage regardless of the element.
+* **Kindred of Rot:** Raises attack power by 20% for 20 seconds after  Poisoning or  Rot.
 * **Situational Fourth Slot:** 
   * **Roar Medallion:** Buffs all breath attacks, Bayle's Tyranny, and Greyoll's Roar.
   * **Dragoncrest Greatshield Talisman:** Boosts damage negation to mitigate the low defences of having no armour.
