@@ -22,15 +22,24 @@
 - Aged One's Exaltation
 
 ## ✨ Spells & Ash of War
-- Sorceries/Incantations: Dragonmouth
+- Sorceries/Incantations: Dragonmaw
+
 Dragonclaw
+
 Greyoll's Roar
+
 Borealis's Mist
+
 Agheel's Flame
+
 Theodorix's Magma
+
 Bayle's Tyranny
+
 Bayle's Flame Lightning
+
 Ghostflame Breath
+
 Rotten Breath/Ekzykes's Decay
 
 - Ash of War: None (Pure Catalyst/Unarmed Setup)
