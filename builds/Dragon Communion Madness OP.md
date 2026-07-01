@@ -22,25 +22,26 @@
 - Aged One's Exaltation
 
 ## ✨ Spells & Ash of War
-- Sorceries/Incantations: Dragonmaw
+- Sorceries/Incantations: 
 
-Dragonclaw
+# 🐉 Dragon Communion Incantations
 
-Greyoll's Roar
+| Incantation | Requirements | Description |
+|---|---|---|
+| **Dragonmaw** 🦷 | 24 Faith / 16 Arcane | Transforms your head into a dragon's to deliver a devastating bite — huge poise damage, hyper armour, no chain cast |
+| **Dragonclaw** 🐾 | 17 Faith / 13 Arcane | Sprouts a draconic claw for a chainable slash combo — great vs hordes, low stat cost for early access |
+| **Greyoll's Roar** 📯 | 28 Faith / 17 Arcane | AoE roar that damages and debuffs enemy attack/defence for 60s — obtained from Elder Dragon Greyoll |
+| **Borealis's Mist** ❄️ | 23 Faith / 15 Arcane | Airborne icy breath, 110 Frostbite/tick — strongest frost-proc breath in the game |
+| **Agheel's Flame** 🔥 | 23 Faith / 15 Arcane | Upgraded fire breath from Flying Dragon Agheel — more damage than base Dragonfire, jump-castable |
+| **Theodorix's Magma** 🌋 | 21 Faith / 14 Arcane | Wide-AoE lava breath, ~40% harder-hitting than Magma Breath, leaves damaging pools, double-cast possible |
+| **Bayle's Tyranny** 🐲⚡ | **0 Faith** / 49 Arcane | Bayle's head roars fire (325%) + lightning (210%) scaling — pure Arcane, mutually exclusive w/ Flame Lightning |
+| **Bayle's Flame Lightning** 👊⚡ | **0 Faith** / 53 Arcane | Bayle's arm slams down for fire/lightning/physical damage — pure Arcane, hyperarmoured, mutually exclusive w/ Tyranny |
+| **Ghostflame Breath** 👻🧊 | 23 Faith / 15 Arcane | Magic damage + Frostbite breath from above — cheaper FP than Borealis's Mist but weaker proc |
+| **Rotten Breath** 🦠 | 15 Faith / 12 Arcane | Base scarlet rot cloud, low stat gate — available from the start, no dragon kill needed |
+| **Ekzykes's Decay** 🧪 | 23 Faith / 15 Arcane | Upgraded Rotten Breath, more damage/FP cost, jump-castable — from Decaying Ekzykes |
 
-Borealis's Mist
+**Note on Bayle's pair** 🔑: only one is obtainable per playthrough (Heart of Bayle is consumed), and they're the only Dragon Communion spells with zero Faith requirement — pure Arcane scaling, unlike the rest of the school.
 
-Agheel's Flame
-
-Theodorix's Magma
-
-Bayle's Tyranny
-
-Bayle's Flame Lightning
-
-Ghostflame Breath
-
-Rotten Breath/Ekzykes's Decay
 
 - Ash of War: None (Pure Catalyst/Unarmed Setup)
 
