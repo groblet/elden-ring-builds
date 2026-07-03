@@ -1,6 +1,11 @@
 ## ⚔️ Build: Divine Tornado Call
 https://youtu.be/S-soud0LfAQ?is=di53YZAGB0grr1OX
 
+Driven by the howling winds of the Wild Hunt, Wotan crossed the fog into the Lands Between. He seeks to usurp the Golden Order, viewing the Greater Will as an artificial shackle upon the primal, chaotic currents of the sky. By seizing the Elden Ring, he intends to restore the true, unbridled reign of the storm.
+
+* **Alignment:** Chaotic Neutral — he respects only the law of the gale and the hunt.
+* **Motto:** "The storm does not negotiate; it harvests."
+
 ## 📊 Attributes
 - Vigor: 60
 - Mind: 26
