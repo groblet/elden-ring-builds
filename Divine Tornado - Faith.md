@@ -1,4 +1,5 @@
 ## ⚔️ Build: Divine Tornado Call
+https://youtu.be/S-soud0LfAQ?is=di53YZAGB0grr1OX
 
 ## 📊 Attributes
 - Vigor: 60
